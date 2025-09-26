@@ -38,23 +38,23 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="section-padding bg-white">
-      <div className="max-w-4xl mx-auto">
+    <section className="section-padding bg-gray-50">
+      <div className="max-w-2xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-dark mb-4">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold text-gray-dark mb-2">
             Send Us a Message
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600">
             Have questions about our roofing services? We're here to help.
           </p>
         </div>
 
         {/* Form */}
-        <div className="bg-gray-50 rounded-lg shadow-lg p-8">
+        <div className="bg-white rounded-lg shadow-lg p-8">
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Name Fields */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
                   First Name *
@@ -66,8 +66,7 @@ const ContactForm = () => {
                   required
                   value={formData.firstName}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors"
-                  placeholder="First name"
+                  className="w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-colors"
                 />
               </div>
 
@@ -82,14 +81,13 @@ const ContactForm = () => {
                   required
                   value={formData.lastName}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors"
-                  placeholder="Last name"
+                  className="w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-colors"
                 />
               </div>
             </div>
 
             {/* Email and Phone */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                   Email Address *
@@ -101,8 +99,7 @@ const ContactForm = () => {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors"
-                  placeholder="your@email.com"
+                  className="w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-colors"
                 />
               </div>
 
@@ -117,8 +114,7 @@ const ContactForm = () => {
                   required
                   value={formData.phoneNumber}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors"
-                  placeholder="(305) 555-0123"
+                  className="w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-colors"
                 />
               </div>
             </div>
@@ -134,8 +130,7 @@ const ContactForm = () => {
                 name="propertyAddress"
                 value={formData.propertyAddress}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors"
-                placeholder="Property address"
+                className="w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-colors"
               />
             </div>
 
@@ -149,7 +144,13 @@ const ContactForm = () => {
                 name="serviceType"
                 value={formData.serviceType}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors bg-white"
+                className="w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-colors bg-white appearance-none"
+                style={{
+                  backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e")`,
+                  backgroundPosition: 'right 0.5rem center',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundSize: '1.5em 1.5em'
+                }}
               >
                 {serviceTypes.map((type, index) => (
                   <option key={index} value={index === 0 ? '' : type}>
@@ -168,10 +169,10 @@ const ContactForm = () => {
                 id="message"
                 name="message"
                 required
-                rows={5}
+                rows={4}
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors resize-vertical"
+                className="w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-green focus:border-primary-green outline-none transition-colors resize-vertical"
                 placeholder="Tell us about your roofing needs..."
               ></textarea>
             </div>
@@ -192,12 +193,15 @@ const ContactForm = () => {
             </div>
 
             {/* Submit Button */}
-            <div className="text-center">
+            <div>
               <button
                 type="submit"
-                className="bg-primary-green text-white font-semibold py-4 px-12 rounded-lg hover:bg-teal-700 transition-colors duration-200 text-lg flex items-center justify-center mx-auto"
+                className="w-full bg-primary-green text-white font-semibold py-3 px-6 rounded-md hover:bg-teal-700 transition-colors duration-200 flex items-center justify-center"
               >
-                📧 Send Message
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+                Send Message
               </button>
             </div>
           </form>

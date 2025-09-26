@@ -1,89 +1,85 @@
-import { useState } from 'react';
-import { MessageSquare, User, CreditCard, Upload, X } from 'lucide-react';
+import { Lock, User, CreditCard, Upload, Bot } from 'lucide-react';
 
 const FloatingActionMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   const menuItems = [
     {
-      icon: MessageSquare,
+      icon: Lock,
       label: 'Request Quote',
-      color: 'bg-primary-yellow text-gray-dark',
+      bgColor: 'bg-primary-yellow',
+      textColor: 'text-black',
+      hoverColor: 'hover:bg-yellow-400',
       action: () => {
-        // Navigate to contact form or open quote modal
-        console.log('Request Quote clicked');
+        window.location.href = '/contact';
       }
     },
     {
       icon: User,
       label: 'Account',
-      color: 'bg-white text-gray-dark border border-gray-300',
+      bgColor: 'bg-white',
+      textColor: 'text-primary-green',
+      hoverColor: 'hover:bg-gray-50',
+      border: 'border border-primary-green',
       action: () => {
         console.log('Account clicked');
+        // Add account functionality here
       }
     },
     {
       icon: CreditCard,
       label: 'Pay Invoice',
-      color: 'bg-white text-gray-dark border border-gray-300',
+      bgColor: 'bg-primary-green',
+      textColor: 'text-white',
+      hoverColor: 'hover:bg-teal-700',
       action: () => {
         console.log('Pay Invoice clicked');
+        // Add payment functionality here
       }
     },
     {
       icon: Upload,
       label: 'Upload',
-      color: 'bg-white text-gray-dark border border-gray-300',
+      bgColor: 'bg-white',
+      textColor: 'text-gray-600',
+      hoverColor: 'hover:bg-gray-50',
+      border: 'border border-gray-300',
       action: () => {
         console.log('Upload clicked');
+        // Add upload functionality here
       }
     }
   ];
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
-      {/* Menu Items */}
-      {isOpen && (
-        <div className="mb-4 space-y-3">
+    <>
+      {/* Fixed Utility Bar on Right Side */}
+      <div className="fixed right-3 top-1/2 transform -translate-y-1/2 z-50">
+        <div className="flex flex-col space-y-2">
           {menuItems.map((item, index) => {
             const Icon = item.icon;
             return (
-              <div
+              <button
                 key={index}
-                className="flex items-center justify-end animate-fade-in"
-                style={{ animationDelay: `${index * 100}ms` }}
+                onClick={item.action}
+                className={`flex items-center px-3 py-2 rounded-full shadow-md transition-all duration-200 hover:shadow-lg transform hover:scale-105 ${item.bgColor} ${item.textColor} ${item.hoverColor} ${item.border || ''}`}
               >
-                <span className="bg-gray-dark text-white px-3 py-2 rounded-lg text-sm mr-3 shadow-lg">
-                  {item.label}
-                </span>
-                <button
-                  onClick={item.action}
-                  className={`w-12 h-12 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center ${item.color}`}
-                >
-                  <Icon className="h-5 w-5" />
-                </button>
-              </div>
+                <Icon className="h-3 w-3 mr-2" />
+                <span className="text-xs font-medium whitespace-nowrap">{item.label}</span>
+              </button>
             );
           })}
         </div>
-      )}
+      </div>
 
-      {/* Main Toggle Button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className={`w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center ${
-          isOpen 
-            ? 'bg-gray-dark text-white rotate-45' 
-            : 'bg-primary-yellow text-gray-dark hover:bg-yellow-400'
-        }`}
-      >
-        {isOpen ? (
-          <X className="h-6 w-6" />
-        ) : (
-          <MessageSquare className="h-6 w-6" />
-        )}
-      </button>
-    </div>
+      {/* Separate Chat Bot Icon - Bottom Right */}
+      <div className="fixed bottom-6 right-6 z-50">
+        <button
+          className="w-14 h-14 bg-primary-green text-white rounded-full shadow-lg hover:shadow-xl hover:bg-teal-700 transition-all duration-200 flex items-center justify-center transform hover:scale-105"
+          title="Chat Bot (Coming Soon)"
+        >
+          <Bot className="h-6 w-6" />
+        </button>
+      </div>
+    </>
   );
 };
 
