@@ -1,16 +1,19 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from './LanguageSelector';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Services', href: '/services' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Contact', href: '/contact' },
+    { name: t('nav.home'), href: '/' },
+    { name: t('nav.services'), href: '/services' },
+    { name: t('nav.gallery'), href: '/gallery' },
+    { name: t('nav.contact'), href: '/contact' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -49,14 +52,15 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Phone and CTA */}
+          {/* Phone, Language Selector, and CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center text-gray-700">
               <Phone className="h-4 w-4 mr-2" />
-              <span className="font-semibold">(305) 555-7663</span>
+              <span className="font-semibold">{t('nav.phone')}</span>
             </div>
+            <LanguageSelector />
             <button className="btn-primary">
-              Get Quote
+              {t('nav.getQuote')}
             </button>
           </div>
 
@@ -93,10 +97,13 @@ const Navbar = () => {
             <div className="px-3 py-2 border-t mt-4">
               <div className="flex items-center text-gray-700 mb-3">
                 <Phone className="h-4 w-4 mr-2" />
-                <span className="font-semibold">(305) 555-7663</span>
+                <span className="font-semibold">{t('nav.phone')}</span>
+              </div>
+              <div className="mb-3">
+                <LanguageSelector />
               </div>
               <button className="btn-primary w-full">
-                Get Quote
+                {t('nav.getQuote')}
               </button>
             </div>
           </div>

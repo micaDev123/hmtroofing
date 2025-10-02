@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ReadyToStart = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     fullName: '',
     phoneNumber: ''
@@ -16,7 +18,7 @@ const ReadyToStart = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    alert('Thank you! We will contact you soon.');
+    alert(t('services.readyToStart.successMessage'));
   };
 
   return (
@@ -25,10 +27,10 @@ const ReadyToStart = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Ready to Get Started?
+            {t('services.readyToStart.title')}
           </h2>
           <p className="text-xl text-gray-100 max-w-2xl mx-auto">
-            Contact us today for a free consultation and estimate for your roofing project.
+            {t('services.readyToStart.subtitle')}
           </p>
         </div>
 
@@ -39,7 +41,7 @@ const ReadyToStart = () => {
               {/* Full Name */}
               <div>
                 <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-2">
-                  Full Name *
+                  {t('services.readyToStart.fullName')} {t('services.readyToStart.required')}
                 </label>
                 <input
                   type="text"
@@ -49,14 +51,14 @@ const ReadyToStart = () => {
                   value={formData.fullName}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors"
-                  placeholder="Enter your full name"
+                  placeholder={t('services.readyToStart.fullNamePlaceholder')}
                 />
               </div>
 
               {/* Phone Number */}
               <div>
                 <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700 mb-2">
-                  Phone Number *
+                  {t('services.readyToStart.phoneNumber')} {t('services.readyToStart.required')}
                 </label>
                 <input
                   type="tel"
@@ -66,7 +68,7 @@ const ReadyToStart = () => {
                   value={formData.phoneNumber}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-green focus:border-transparent outline-none transition-colors"
-                  placeholder="(305) 555-0123"
+                  placeholder={t('services.readyToStart.phoneNumberPlaceholder')}
                 />
               </div>
             </div>
@@ -77,7 +79,7 @@ const ReadyToStart = () => {
                 type="submit"
                 className="w-full md:w-auto bg-primary-yellow text-gray-dark font-semibold py-4 px-12 rounded-lg hover:bg-yellow-400 transition-colors duration-200 text-lg"
               >
-                Get Free Consultation
+                {t('services.readyToStart.submitButton')}
               </button>
             </div>
           </form>

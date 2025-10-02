@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const ServicesHero = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative h-96 flex items-center justify-center bg-gradient-to-br from-primary-green to-teal-700">
       {/* Background Image Overlay */}
@@ -15,20 +17,19 @@ const ServicesHero = () => {
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         {/* Breadcrumb */}
         <div className="text-sm mb-4 opacity-90">
-          <Link to="/" className="hover:text-primary-yellow">Home</Link>
+          <Link to="/" className="hover:text-primary-yellow">{t('services.breadcrumb.home')}</Link>
           <span className="mx-2">•</span>
-          <span>Services</span>
+          <span>{t('services.breadcrumb.services')}</span>
         </div>
         
         {/* Main Heading */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          Our <span className="text-primary-yellow">Services</span>
+          {t('services.hero.title')}
         </h1>
         
         {/* Subtext */}
         <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-3xl mx-auto">
-          Comprehensive roofing solutions for residential and commercial 
-          properties in beautiful South Florida.
+          {t('services.hero.subtitle')}
         </p>
         
         {/* CTA Button */}
@@ -36,7 +37,7 @@ const ServicesHero = () => {
           to="/contact"
           className="btn-primary text-lg px-8 py-4 inline-flex items-center"
         >
-          🔍 Explore Services
+          {t('services.hero.cta')}
         </Link>
       </div>
     </section>

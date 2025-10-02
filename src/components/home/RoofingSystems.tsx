@@ -1,36 +1,40 @@
+import { useTranslation } from 'react-i18next';
+
 const RoofingSystems = () => {
+  const { t } = useTranslation();
+  
   const systems = [
     {
-      title: 'Tile Roofing',
+      titleKey: 'roofingSystems.tile.title',
       image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Durable clay and concrete tiles offering superior protection and distinctive aesthetic appeal.',
-      features: [
-        'Long-lasting durability',
-        'Weather resistant', 
-        'Energy efficient',
-        'Low maintenance'
+      descriptionKey: 'roofingSystems.tile.description',
+      featureKeys: [
+        'roofingSystems.tile.features.durability',
+        'roofingSystems.tile.features.weather', 
+        'roofingSystems.tile.features.energy',
+        'roofingSystems.tile.features.maintenance'
       ]
     },
     {
-      title: 'Asphalt Shingle',
+      titleKey: 'roofingSystems.asphalt.title',
       image: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Cost-effective and versatile shingles with excellent weather protection.',
-      features: [
-        'Cost-effective',
-        'Easy installation',
-        'Wide variety of colors',
-        'Good wind resistance'
+      descriptionKey: 'roofingSystems.asphalt.description',
+      featureKeys: [
+        'roofingSystems.asphalt.features.cost',
+        'roofingSystems.asphalt.features.installation',
+        'roofingSystems.asphalt.features.colors',
+        'roofingSystems.asphalt.features.wind'
       ]
     },
     {
-      title: 'Coating Systems',
+      titleKey: 'roofingSystems.coating.title',
       image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Advanced coating solutions for enhanced waterproofing and energy efficiency.',
-      features: [
-        'Waterproof protection',
-        'Energy savings',
-        'Extends roof life',
-        'Seamless application'
+      descriptionKey: 'roofingSystems.coating.description',
+      featureKeys: [
+        'roofingSystems.coating.features.waterproof',
+        'roofingSystems.coating.features.savings',
+        'roofingSystems.coating.features.extends',
+        'roofingSystems.coating.features.seamless'
       ]
     }
   ];
@@ -41,10 +45,10 @@ const RoofingSystems = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-dark mb-4">
-            Roofing Systems
+            {t('roofingSystems.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Professional installation of complete roofing materials
+            {t('roofingSystems.subtitle')}
           </p>
         </div>
 
@@ -56,12 +60,12 @@ const RoofingSystems = () => {
               <div className="relative h-64 overflow-hidden">
                 <img 
                   src={system.image} 
-                  alt={system.title}
+                  alt={t(system.titleKey)}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute bottom-4 left-4">
                   <span className="bg-primary-yellow text-gray-dark px-3 py-1 rounded-full text-sm font-semibold">
-                    {system.title}
+                    {t(system.titleKey)}
                   </span>
                 </div>
               </div>
@@ -69,15 +73,15 @@ const RoofingSystems = () => {
               {/* Content */}
               <div className="p-6">
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  {system.description}
+                  {t(system.descriptionKey)}
                 </p>
 
                 {/* Features List */}
                 <ul className="space-y-2">
-                  {system.features.map((feature, featureIndex) => (
+                  {system.featureKeys.map((featureKey: string, featureIndex: number) => (
                     <li key={featureIndex} className="flex items-center text-sm text-gray-600">
                       <div className="w-2 h-2 bg-primary-green rounded-full mr-3"></div>
-                      {feature}
+                      {t(featureKey)}
                     </li>
                   ))}
                 </ul>

@@ -1,0 +1,525 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "contact": "Contacto",
+    "getQuote": "Obtener Cotización",
+    "phone": "(305) 555-7663"
+  },
+  "hero": {
+    "title": "Servicios Profesionales de Techado en Miami",
+    "subtitle": "Protegiendo su hogar con artesanía de calidad y servicio confiable desde 1995",
+    "cta": "Obtener Estimado Gratis",
+    "callNow": "Llamar Ahora"
+  },
+  "coreValues": {
+    "title": "Nuestros Valores Fundamentales",
+    "subtitle": "Construido sobre la base del Honor, Maestría y Confianza",
+    "honor": {
+      "title": "Honor",
+      "description": "Conducimos nuestro negocio con el más alto nivel de integridad y honor en cada proyecto y cliente con respeto y honestidad."
+    },
+    "mastery": {
+      "title": "Maestría",
+      "description": "Creemos en la mejora continua y el dominio de nuestro oficio, entregando excelencia en cada proyecto de techado."
+    },
+    "trust": {
+      "title": "Confianza",
+      "description": "Construimos relaciones duraderas basadas en la confianza, confiabilidad y transparencia en todos nuestros tratos comerciales."
+    }
+  },
+  "roofingSystems": {
+    "title": "Sistemas de Techado",
+    "subtitle": "Instalación profesional de materiales de techado completos",
+    "tile": {
+      "title": "Techado de Tejas",
+      "description": "Tejas de arcilla y concreto duraderas que ofrecen protección superior y atractivo estético distintivo.",
+      "features": {
+        "durability": "Durabilidad de larga duración",
+        "weather": "Resistente al clima",
+        "energy": "Eficiente energéticamente",
+        "maintenance": "Bajo mantenimiento"
+      }
+    },
+    "asphalt": {
+      "title": "Tejas de Asfalto",
+      "description": "Tejas rentables y versátiles con excelente protección contra el clima.",
+      "features": {
+        "cost": "Rentable",
+        "installation": "Instalación fácil",
+        "colors": "Amplia variedad de colores",
+        "wind": "Buena resistencia al viento"
+      }
+    },
+    "coating": {
+      "title": "Sistemas de Revestimiento",
+      "description": "Soluciones de revestimiento avanzadas para mayor impermeabilización y eficiencia energética.",
+      "features": {
+        "waterproof": "Protección impermeable",
+        "savings": "Ahorro de energía",
+        "extends": "Extiende la vida del techo",
+        "seamless": "Aplicación sin costuras"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Lo que Dicen Nuestros Clientes",
+    "subtitle": "Confiado por propietarios y empresas en todo el sur de Florida",
+    "client1": {
+      "name": "Sarah Johnson",
+      "role": "Propietaria",
+      "text": "HMT Roofing hizo un trabajo excepcional en el reemplazo de nuestro techo de tejas. Profesional, puntual y la calidad es sobresaliente. ¡Altamente recomendado!"
+    },
+    "client2": {
+      "name": "Michael Rodriguez",
+      "role": "Dueño de Negocio",
+      "text": "Excelente servicio para nuestra propiedad comercial. El equipo fue profesional y completó el proyecto a tiempo y dentro del presupuesto."
+    },
+    "client3": {
+      "name": "Lisa Chen",
+      "role": "Gerente de Propiedades",
+      "text": "Trabajo excepcional y servicio al cliente. HMT Roofing ha sido nuestro contratista de confianza para múltiples propiedades."
+    }
+  },
+  "community": {
+    "title": "Participación Comunitaria",
+    "subtitle": "Sirviendo y apoyando con orgullo a nuestra comunidad local de Miami",
+    "description": "En HMT Roofing, creemos en retribuir a la comunidad que nos ha apoyado durante más de 25 años. Somos patrocinadores orgullosos de equipos deportivos juveniles locales y participamos regularmente en proyectos de mejoramiento comunitario.",
+    "involvement": {
+      "sponsor": "Patrocinador de Deportes Juveniles",
+      "volunteer": "Trabajo Voluntario Comunitario",
+      "local": "Socio Comercial Local"
+    }
+  },
+  "estimate": {
+    "title": "Obtenga Su Estimado Gratuito Hoy",
+    "subtitle": "¿Listo para proteger su hogar? Contáctenos para una evaluación integral de techado.",
+    "form": {
+      "name": "Nombre Completo",
+      "email": "Dirección de Correo",
+      "phone": "Número de Teléfono",
+      "address": "Dirección de la Propiedad",
+      "service": "Servicio Necesario",
+      "message": "Detalles Adicionales",
+      "submit": "Solicitar Estimado"
+    },
+    "services": {
+      "repair": "Reparación de Techo",
+      "replacement": "Reemplazo de Techo",
+      "installation": "Nueva Instalación",
+      "inspection": "Inspección de Techo",
+      "maintenance": "Mantenimiento"
+    }
+  },
+  "language": {
+    "select": "Idioma",
+    "english": "English",
+    "spanish": "Español",
+    "creole": "Kreyòl"
+  },
+  "floatingMenu": {
+    "requestQuote": "Solicitar Cotización",
+    "account": "Cuenta",
+    "payInvoice": "Pagar Factura",
+    "upload": "Subir",
+    "chatBot": "Chat Bot (Próximamente)"
+  },
+  "footer": {
+    "company": "HMT Roofing",
+    "description": "Servicios profesionales de techado en el sur de Florida. Con licencia, certificado y confiado por propietarios y empresas.",
+    "licensed": "Con Licencia y Certificado",
+    "licenseNumber": "CCC1336315",
+    "ourServices": "Nuestros Servicios",
+    "services": {
+      "newRoofs": "Techos Nuevos",
+      "reRoofing": "Re-Techado",
+      "roofRepairs": "Reparaciones de Techos",
+      "maintenance": "Mantenimiento",
+      "emergencyService": "Servicio de Emergencia"
+    },
+    "roofingSystems": "Sistemas de Techado",
+    "systems": {
+      "tileRoofing": "Techado de Tejas",
+      "asphaltShingle": "Tejas de Asfalto",
+      "builtUpRoofing": "Techado Construido",
+      "metalRoofing": "Techado de Metal",
+      "coatingSystems": "Sistemas de Revestimiento"
+    },
+    "contactUs": "Contáctanos",
+    "location": "Miami, FL\nSur de Florida",
+    "copyright": "© 2024 HMT Roofing. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "estimateForm": {
+    "title": "Obtenga Su Estimado Gratuito",
+    "subtitle": "¿Listo para comenzar su proyecto de techado? Obtenga una cotización personalizada hoy.",
+    "fullName": "Nombre Completo",
+    "phoneNumber": "Número de Teléfono",
+    "propertyAddress": "Dirección de la Propiedad",
+    "typeOfRoofing": "Tipo de Techado",
+    "required": "*",
+    "placeholders": {
+      "fullName": "Ingrese su nombre completo",
+      "phoneNumber": "(305) 555-0123",
+      "propertyAddress": "Ingrese la dirección de la propiedad"
+    },
+    "roofingTypes": {
+      "select": "Seleccionar tipo de techado",
+      "tileRoofing": "Techado de Tejas",
+      "asphaltShingle": "Tejas de Asfalto",
+      "metalRoofing": "Techado de Metal",
+      "builtUpRoofing": "Techado Construido",
+      "coatingSystems": "Sistemas de Revestimiento",
+      "notSure": "No Estoy Seguro - Necesito Consulta"
+    },
+    "submitButton": "Obtener Estimado Gratuito",
+    "successMessage": "¡Gracias! Nos pondremos en contacto con usted pronto para su estimado gratuito."
+  },
+  "communityInvolvement": {
+    "organizations": {
+      "chapman": {
+        "title": "Chapman Partnership para Personas Sin Hogar",
+        "description": "Sirviendo a los miembros más vulnerables de la comunidad del sur de Florida como un socio de confianza.",
+        "link": "www.chapmanpartnership.org"
+      },
+      "compassion": {
+        "title": "Compassion International: Rescatando Niños de la Pobreza",
+        "description": "Patrocinador de niños, orador de conferencias y embajador comunitario en nombre de los niños más vulnerables del mundo.",
+        "link": "www.compassion.com"
+      },
+      "nba": {
+        "title": "Capellán de la NBA",
+        "description": "Más de 15 años de experiencia en ministerio deportivo profesional con atletas y la comunidad de la NBA.",
+        "link": "www.athletesinaction.org"
+      }
+    },
+    "bottomText": "Aprenda más sobre nuestras asociaciones comunitarias y cómo retribuimos al sur de Florida",
+    "viewAllButton": "Ver Todas las Asociaciones"
+  },
+  "gallery": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "gallery": "Galería"
+    },
+    "title": "Vea Nuestro Trabajo en Acción",
+    "subtitle": "Explore nuestro portafolio de proyectos de techado completados en todo el sur de Florida",
+    "projects": {
+      "tileInstallation": "Instalación de Techo de Tejas",
+      "shingleReplacement": "Reemplazo de Tejas de Asfalto",
+      "commercialRoofing": "Techado Comercial",
+      "metalInstallation": "Instalación de Techo de Metal",
+      "roofRepair": "Servicio de Reparación de Techos",
+      "emergencyRepair": "Reparación de Emergencia de Techos"
+    },
+    "categories": {
+      "residential": "Residencial",
+      "commercial": "Comercial",
+      "maintenance": "Mantenimiento",
+      "emergency": "Emergencia"
+    },
+    "communitySection": {
+      "title": "Participación Comunitaria",
+      "subtitle": "Estamos orgullosos de apoyar a nuestra comunidad local a través de varias asociaciones e iniciativas benéficas.",
+      "chapman": {
+        "title": "Chapman Partnership",
+        "description": "Apoyando servicios para personas sin hogar en el condado de Miami-Dade"
+      },
+      "compassion": {
+        "title": "Compassion International",
+        "description": "Ayudando a niños en todo el mundo a través de programas de patrocinio"
+      },
+      "nba": {
+        "title": "Capellán de la NBA",
+        "description": "Brindando apoyo espiritual a atletas profesionales"
+      }
+    }
+  },
+  "video": {
+    "title": "Vea Nuestra Experiencia en Acción",
+    "subtitle": "Observe cómo HMT Roofing ofrece soluciones profesionales de techado con artesanía de calidad y atención al detalle.",
+    "hoverText": "Haga clic para ver nuestra experiencia en techado en acción",
+    "cta": {
+      "description": "¿Listo para experimentar la diferencia de HMT Roofing? Contáctenos hoy para su consulta gratuita.",
+      "callNow": "Llame Ahora",
+      "getEstimate": "Obtener Estimado Gratis"
+    }
+  },
+  "contact": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "title": "Contáctanos",
+      "subtitle": "¿Listo para discutir su proyecto de techado? Póngase en contacto con nuestro equipo experto hoy."
+    },
+    "info": {
+      "callUs": {
+        "title": "Llámanos",
+        "primary": "(305) 555-7663",
+        "secondary": "9am a 6pm diariamente"
+      },
+      "emailUs": {
+        "title": "Envíanos un Email",
+        "primary": "info@hmtroofing.com",
+        "secondary": "Respuesta en 24 horas"
+      },
+      "visitUs": {
+        "title": "Visítanos",
+        "primary": "Miami, FL",
+        "secondary": "Sirviendo el Sur de Florida"
+      }
+    },
+    "emergency": {
+      "title": "Servicios de Techado de Emergencia",
+      "subtitle": "¿Daño por tormenta? ¿Emergencia de filtración? Estamos disponibles 24/7 para reparaciones urgentes.",
+      "emergencyLine": "Línea de Emergencia",
+      "callButton": "📞 Llamar Línea de Emergencia: (305) 555-7663",
+      "availability": "Disponible 24/7 para reparaciones de techado de emergencia y daños por tormentas"
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "subtitle": "¿Tienes preguntas sobre nuestros servicios de techado? Estamos aquí para ayudar.",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Dirección de Email",
+      "phoneNumber": "Número de Teléfono",
+      "propertyAddress": "Dirección de la Propiedad",
+      "serviceType": "Tipo de Servicio",
+      "message": "Mensaje",
+      "required": "*",
+      "firstNamePlaceholder": "Ingrese su nombre",
+      "lastNamePlaceholder": "Ingrese su apellido",
+      "emailPlaceholder": "Ingrese su dirección de email",
+      "phoneNumberPlaceholder": "Ingrese su número de teléfono",
+      "propertyAddressPlaceholder": "Ingrese la dirección de la propiedad",
+      "messagePlaceholder": "Cuéntanos sobre tus necesidades de techado...",
+      "serviceOptions": {
+        "select": "Seleccione un servicio",
+        "newRoof": "Instalación de Techo Nuevo",
+        "roofRepair": "Reparación de Techo",
+        "roofReplacement": "Reemplazo de Techo",
+        "inspection": "Inspección de Techo",
+        "maintenance": "Mantenimiento de Techo",
+        "emergency": "Servicio de Emergencia",
+        "other": "Otro"
+      },
+      "submitButton": "Enviar Mensaje",
+      "successMessage": "¡Gracias por tu mensaje! Te contactaremos pronto.",
+      "agreementText": "Acepto recibir comunicaciones de HMT Roofing y entiendo que puedo cancelar la suscripción en cualquier momento."
+    }
+  },
+  "services": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "services": "Servicios"
+    },
+    "hero": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Soluciones integrales de techado para propiedades residenciales y comerciales en el hermoso sur de Florida.",
+      "cta": "🔍 Explorar Servicios"
+    },
+    "solutions": {
+      "title": "Soluciones Completas de Techado",
+      "subtitle": "Desde nuevas instalaciones hasta reparaciones de emergencia, proporcionamos servicios expertos de techado con materiales de calidad y artesanía profesional.",
+      "newRoofs": {
+        "title": "Techos Nuevos",
+        "description": "Instalaciones completas de techos desde cero con artesanía experta y materiales premium.",
+        "features": {
+          "consultation": "Consulta profesional",
+          "materials": "Materiales premium",
+          "installation": "Instalación experta",
+          "warranty": "Garantía integral"
+        }
+      },
+      "reRoof": {
+        "title": "Re-Techado",
+        "description": "Servicios profesionales de reemplazo de techos para dar a su propiedad un sistema de techado fresco y duradero.",
+        "features": {
+          "tearOff": "Demolición completa",
+          "inspection": "Inspección estructural",
+          "materials": "Materiales modernos",
+          "efficiency": "Eficiencia energética"
+        }
+      },
+      "repairs": {
+        "title": "Reparaciones",
+        "description": "Servicios expertos de reparación de techos para filtraciones, daños por tormentas y problemas generales de mantenimiento.",
+        "features": {
+          "emergency": "Reparaciones de emergencia",
+          "detection": "Detección de filtraciones",
+          "storm": "Daños por tormentas",
+          "preventive": "Mantenimiento preventivo"
+        }
+      },
+      "maintenance": {
+        "title": "Mantenimiento",
+        "description": "Programas regulares de mantenimiento para extender la vida de su techo y prevenir reparaciones costosas.",
+        "features": {
+          "inspections": "Inspecciones programadas",
+          "care": "Cuidado preventivo",
+          "cleaning": "Limpieza de canaletas",
+          "optimization": "Optimización del rendimiento"
+        }
+      },
+      "learnMore": "Saber Más →"
+    },
+    "materials": {
+      "title": "Materiales de Techado que Instalamos",
+      "subtitle": "Materiales premium para cada necesidad y presupuesto de techado",
+      "tile": {
+        "title": "Tejas",
+        "description": "Tejas de arcilla y concreto duraderas que ofrecen protección superior y atractivo estético distintivo.",
+        "benefits": {
+          "durability": "Durabilidad de larga duración",
+          "weather": "Resistente al clima",
+          "energy": "Eficiente energéticamente",
+          "maintenance": "Bajo mantenimiento",
+          "fire": "Resistente al fuego",
+          "eco": "Opciones ecológicas"
+        }
+      },
+      "shingle": {
+        "title": "Tejas de Asfalto",
+        "description": "Tejas rentables y versátiles con excelente protección contra el clima e instalación fácil.",
+        "benefits": {
+          "cost": "Rentable",
+          "installation": "Instalación fácil",
+          "colors": "Amplia variedad de colores",
+          "wind": "Buena resistencia al viento",
+          "algae": "Resistencia a las algas",
+          "impact": "Resistente al impacto"
+        }
+      },
+      "builtUp": {
+        "title": "Construido",
+        "description": "Sistemas de techado construidos de múltiples capas ideales para aplicaciones comerciales planas y de baja pendiente.",
+        "benefits": {
+          "waterproof": "Protección impermeable",
+          "commercial": "Grado comercial",
+          "multiLayer": "Sistema multicapa",
+          "cost": "Rentable",
+          "performance": "Rendimiento comprobado",
+          "maintenance": "Mantenimiento fácil"
+        }
+      },
+      "metal": {
+        "title": "Metal",
+        "description": "Techado de metal premium que ofrece durabilidad excepcional, eficiencia energética y estética moderna.",
+        "benefits": {
+          "durability": "Durabilidad excepcional",
+          "energy": "Eficiente energéticamente",
+          "lightweight": "Liviano",
+          "fire": "Resistente al fuego",
+          "recyclable": "Reciclable",
+          "maintenance": "Bajo mantenimiento"
+        }
+      }
+    },
+    "detailedSystems": {
+      "title": "Nuestros Sistemas de Techado",
+      "subtitle": "Descubra la solución de techado perfecta para su hogar o negocio con nuestra gama integral de sistemas de alta calidad",
+      "whyChoose": "¿Por Qué Elegir un",
+      "metal": {
+        "title": "Sistema de Techado de Metal",
+        "description": "Los techos de metal se han vuelto populares tanto para aplicaciones residenciales como comerciales. El ciclo de vida de un techo de metal puede durar entre 40 y 70 años, más del doble que el asfalto tradicional. Los techos de metal también proporcionan protección adicional contra los elementos, incluyendo granizo, lluvias fuertes y vientos fuertes.",
+        "benefits": {
+          "lasting": "Construido para Durar 40-70 Años, Comparado con 12-25 para la Mayoría de Techos de Asfalto",
+          "colors": "Disponible en una Gran Selección de Colores para Ajustarse a su Estilo Deseado",
+          "maintenance": "Requieren Menos Mantenimiento Continuo que Otros Sistemas de Techado",
+          "warranties": "Disfrute de Garantías del Fabricante de Mayor Duración",
+          "impervious": "Impermeable a la Pudrición, Moho y Más"
+        }
+      },
+      "flat": {
+        "title": "Sistema de Techado Plano",
+        "description": "Aunque los techos planos se ven tradicionalmente en propiedades comerciales, cualquier techo plano o de baja pendiente puede beneficiarse de un sistema de techo plano. La capacidad de un techo plano para mantener su estructura hermética es importante para evitar daños costosos por agua o mantenimiento continuo para proteger su hogar o negocio.",
+        "benefits": {
+          "costs": "Menores Costos de Construcción y Materiales",
+          "repairs": "Reparaciones Asequibles, Cuando sea Necesario",
+          "efficiency": "Disfrute de Eficiencia Energética y Menores Costos de Servicios Públicos",
+          "versatile": "Son Versátiles para Aplicaciones Tanto Residenciales como Comerciales",
+          "space": "Menos Espacio Desperdiciado - El Área Adicional es Ideal para Paneles Solares, Espacio Utilizable en la Azotea y Más"
+        }
+      },
+      "tile": {
+        "title": "Sistema de Techado de Tejas",
+        "description": "Los sistemas de techado de tejas ofrecen durabilidad excepcional y atractivo estético, convirtiéndolos en una excelente opción para varios estilos arquitectónicos y climas.",
+        "benefits": {
+          "shedding": "Excelente para Drenar Agua en Climas Propensos a la Lluvia",
+          "lasting": "Los Sistemas de Tejas son Duraderos con Mantenimiento Regular",
+          "winds": "Lo Suficientemente Duradero para Resistir Vientos Fuertes",
+          "impervious": "Impermeable a la Pudrición, Insectos y Más",
+          "recyclable": "Hecho de Materiales Reciclables y Ecológicos",
+          "variety": "Disponible en una Variedad de Opciones y Colores para Combinar con su Hogar"
+        }
+      },
+      "asphalt": {
+        "title": "Sistema de Techado de Tejas de Asfalto",
+        "description": "Las tejas de asfalto siguen siendo una de las opciones de techado más populares debido a su versatilidad, asequibilidad y rendimiento comprobado en diversas condiciones climáticas.",
+        "benefits": {
+          "lasting": "Los Sistemas de Techado de Asfalto son Duraderos",
+          "affordable": "Fácil de Instalar y Más Asequible que Metal o Tejas",
+          "variety": "Disponible en una Variedad de Estilos y Colores",
+          "repairs": "La Mayoría de Problemas Comunes se Pueden Reparar Fácilmente",
+          "reputation": "Reputación de Larga Data por Calidad y Confiabilidad"
+        }
+      },
+      "coating": {
+        "title": "Sistema de Revestimiento de Techo",
+        "description": "El revestimiento de techo es una solución rentable que puede extender la vida de su techo existente mientras proporciona protección mejorada y eficiencia energética.",
+        "benefits": {
+          "leaks": "Detiene las Filtraciones de Agua Activas y Previene Daños Futuros",
+          "costEffective": "Más Rentable que un Reemplazo Completo de Techo",
+          "efficiency": "Mejora la Eficiencia Energética y la Estabilidad UV",
+          "seamless": "Proporciona una Barrera Impermeable y Sin Costuras para su Techo",
+          "install": "Fácil de Instalar con Mínima Interrupción",
+          "integrity": "Mantiene y Preserva la Integridad de su Sistema de Techado"
+        }
+      },
+      "cta": {
+        "title": "¿Listo para Elegir su Sistema de Techado Perfecto?",
+        "subtitle": "Nuestros expertos están aquí para ayudarle a seleccionar la solución de techado ideal para sus necesidades específicas y presupuesto",
+        "consultation": "Obtener Consulta Gratuita",
+        "quote": "Solicitar Cotización"
+      }
+    },
+    "process": {
+      "title": "Nuestro Proceso de Servicio",
+      "subtitle": "Desde la consulta inicial hasta la finalización del proyecto",
+      "inspection": {
+        "title": "Inspección",
+        "description": "Inspección y evaluación integral del techo para identificar problemas y determinar la mejor solución.",
+        "details": "Nuestros inspectores certificados examinarán minuciosamente la estructura, materiales y condición general de su techo."
+      },
+      "estimate": {
+        "title": "Estimado",
+        "description": "Estimado escrito detallado con especificaciones de materiales y desglose transparente de precios.",
+        "details": "Reciba una cotización integral sin tarifas ocultas y explicación detallada del trabajo recomendado."
+      },
+      "installation": {
+        "title": "Instalación",
+        "description": "Instalación profesional por técnicos certificados usando materiales premium y técnicas comprobadas.",
+        "details": "Instalación experta con atención al detalle, protocolos de seguridad y mínima interrupción a su propiedad."
+      },
+      "warranty": {
+        "title": "Garantía",
+        "description": "Cobertura integral de garantía y soporte continuo para su tranquilidad.",
+        "details": "Protección completa de garantía con servicio al cliente receptivo y soporte de mantenimiento cuando sea necesario."
+      }
+    },
+    "readyToStart": {
+      "title": "¿Listo para Comenzar?",
+      "subtitle": "Contáctenos hoy para una consulta gratuita y estimado para su proyecto de techado.",
+      "fullName": "Nombre Completo",
+      "phoneNumber": "Número de Teléfono",
+      "required": "*",
+      "fullNamePlaceholder": "Ingrese su nombre completo",
+      "phoneNumberPlaceholder": "(305) 555-0123",
+      "submitButton": "Obtener Consulta Gratuita",
+      "successMessage": "¡Gracias! Nos pondremos en contacto con usted pronto."
+    }
+  }
+}

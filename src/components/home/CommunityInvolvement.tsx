@@ -1,22 +1,26 @@
+import { useTranslation } from 'react-i18next';
+
 const CommunityInvolvement = () => {
+  const { t } = useTranslation();
+  
   const organizations = [
     {
-      title: 'Chapman Partnership for the Homeless',
-      image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Serving the most vulnerable members of the South Florida Community as a trusted partner.',
-      link: 'www.chapmanpartnership.org'
+      titleKey: 'communityInvolvement.organizations.chapman.title',
+      image: '/images/1.png',
+      descriptionKey: 'communityInvolvement.organizations.chapman.description',
+      linkKey: 'communityInvolvement.organizations.chapman.link'
     },
     {
-      title: 'Compassion International: Rescuing Children from Poverty',
-      image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Child sponsor, conference speaker and community ambassador on behalf of the world\'s most vulnerable children.',
-      link: 'www.compassion.com'
+      titleKey: 'communityInvolvement.organizations.compassion.title',
+      image: '/images/2.png',
+      descriptionKey: 'communityInvolvement.organizations.compassion.description',
+      linkKey: 'communityInvolvement.organizations.compassion.link'
     },
     {
-      title: 'NBA Chaplain',
-      image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      description: 'Over 15 years of professional sports ministry experience with athletes and the NBA community.',
-      link: 'www.athletesinaction.org'
+      titleKey: 'communityInvolvement.organizations.nba.title',
+      image: '/images/3.png',
+      descriptionKey: 'communityInvolvement.organizations.nba.description',
+      linkKey: 'communityInvolvement.organizations.nba.link'
     }
   ];
 
@@ -26,10 +30,10 @@ const CommunityInvolvement = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-dark mb-4">
-            Community Involvement
+            {t('community.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're proud to support our local and global community through meaningful partnerships
+            {t('community.subtitle')}
           </p>
         </div>
 
@@ -41,8 +45,10 @@ const CommunityInvolvement = () => {
               <div className="relative h-48 overflow-hidden">
                 <img 
                   src={org.image} 
-                  alt={org.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  alt={t(org.titleKey)}
+                  className={`w-full h-full group-hover:scale-105 transition-transform duration-300 ${
+                    index === 0 ? 'object-cover object-top' : 'object-cover'
+                  }`}
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-30 transition-opacity duration-300"></div>
               </div>
@@ -51,23 +57,23 @@ const CommunityInvolvement = () => {
               <div className="p-6">
                 {/* Title */}
                 <h3 className="text-lg font-bold text-gray-dark mb-3 leading-tight">
-                  {org.title}
+                  {t(org.titleKey)}
                 </h3>
 
                 {/* Description */}
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  {org.description}
+                  {t(org.descriptionKey)}
                 </p>
 
                 {/* Link */}
                 <div className="flex items-center justify-between">
                   <a 
-                    href={`https://${org.link}`}
+                    href={`https://${t(org.linkKey)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-green hover:text-primary-yellow font-medium text-sm transition-colors duration-200"
                   >
-                    {org.link}
+                    {t(org.linkKey)}
                   </a>
                   <div className="w-8 h-8 bg-primary-green rounded-full flex items-center justify-center group-hover:bg-primary-yellow transition-colors duration-200">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -83,10 +89,10 @@ const CommunityInvolvement = () => {
         {/* Bottom Call to Action */}
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">
-            Learn more about our community partnerships and how we give back to South Florida
+            {t('communityInvolvement.bottomText')}
           </p>
           <button className="btn-secondary">
-            View All Partnerships
+            {t('communityInvolvement.viewAllButton')}
           </button>
         </div>
       </div>

@@ -1,0 +1,525 @@
+{
+  "nav": {
+    "home": "Lakay",
+    "services": "Sèvis yo",
+    "gallery": "Galri",
+    "contact": "Kontak",
+    "getQuote": "Jwenn Pri",
+    "phone": "(305) 555-7663"
+  },
+  "hero": {
+    "title": "Sèvis Pwofesyonèl Twati nan Miami",
+    "subtitle": "N ap pwoteje kay ou a ak bon jan travay ak sèvis serye depi 1995",
+    "cta": "Jwenn Estimasyon Gratis",
+    "callNow": "Rele Kounye a"
+  },
+  "coreValues": {
+    "title": "Valè Prensipal Nou yo",
+    "subtitle": "Bati sou fondasyon Onè, Metrèz ak Konfyans",
+    "honor": {
+      "title": "Onè",
+      "description": "Nou mennen biznis nou an ak pi wo nivo entegrite ak onè nan chak pwojè ak kliyan ak respè ak onètete."
+    },
+    "mastery": {
+      "title": "Metrèz",
+      "description": "Nou kwè nan amelyorasyon kontinyèl ak metrèz nan travay nou an, bay ekselans nan chak pwojè twati."
+    },
+    "trust": {
+      "title": "Konfyans",
+      "description": "Nou bati relasyon ki dire ki baze sou konfyans, fyabilite ak transparans nan tout zafè biznis nou yo."
+    }
+  },
+  "roofingSystems": {
+    "title": "Sistèm Twati yo",
+    "subtitle": "Enstalasyon pwofesyonèl materyel twati konplè yo",
+    "tile": {
+      "title": "Twati Fèy Tè",
+      "description": "Fèy tè ak beton ki dire ki bay pwoteksyon siperye ak atiran estetik disteng.",
+      "features": {
+        "durability": "Dire lontan",
+        "weather": "Reziste move tan",
+        "energy": "Ekonomize enèji",
+        "maintenance": "Pa bezwen anpil entretyen"
+      }
+    },
+    "asphalt": {
+      "title": "Fèy Asfalt",
+      "description": "Fèy ki gen bon pri ak ki versatil ak ekselan pwoteksyon kont move tan.",
+      "features": {
+        "cost": "Pri rezonab",
+        "installation": "Enstalasyon fasil",
+        "colors": "Anpil koulè diferan",
+        "wind": "Bon rezistans kont van"
+      }
+    },
+    "coating": {
+      "title": "Sistèm Kouvri yo",
+      "description": "Solisyon kouvri avanse yo pou pi bon pwoteksyon dlo ak efikasite enèji.",
+      "features": {
+        "waterproof": "Pwoteksyon kont dlo",
+        "savings": "Ekonomi enèji",
+        "extends": "Lonje lavi twati a",
+        "seamless": "Aplikasyon san kouti"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Sa Kliyan Nou yo Di",
+    "subtitle": "Moun ak biznis nan tout sid florida yo fye nou",
+    "client1": {
+      "name": "Sarah Johnson",
+      "role": "Mèt Kay",
+      "text": "HMT Roofing te fè yon travay eksepsyonèl sou ranplasman twati fèy tè nou an. Pwofesyonèl, nan lè ak kalite a ekselan. Nou rekomanè yo anpil!"
+    },
+    "client2": {
+      "name": "Michael Rodriguez",
+      "role": "Pwopriyete Biznis",
+      "text": "Ekselan sèvis pou pwopriyete komèsyal nou an. Ekip la te pwofesyonèl yo te fini pwojè a nan lè ak nan bidjè a."
+    },
+    "client3": {
+      "name": "Lisa Chen",
+      "role": "Manajer Pwopriyete",
+      "text": "Travay ak sèvis kliyan ki depase tou. HMT Roofing se kontraktè nou an pou plizyè pwopriyete."
+    }
+  },
+  "community": {
+    "title": "Patisipasyon nan Kominote a",
+    "subtitle": "N ap sèvi ak fyètè ak sipòte kominote lokal Miami nou an",
+    "description": "Nan HMT Roofing, nou kwè nan bay tounen nan kominote a ki te sipòte nou pou plis pase 25 ane. Nou se patwon fyè nan ekip espò jèn lokal yo ak nou patisipe regilyèman nan pwojè amelyorasyon kominote yo.",
+    "involvement": {
+      "sponsor": "Patwon Espò Jèn",
+      "volunteer": "Travay Volontè Kominote",
+      "local": "Patnè Biznis Lokal"
+    }
+  },
+  "estimate": {
+    "title": "Jwenn Estimasyon Gratis Ou a Jodi a",
+    "subtitle": "Pare pou pwoteje kay ou a? Kontakte nou pou yon evalyasyon twati konplè.",
+    "form": {
+      "name": "Non Konplè",
+      "email": "Adrès Imèl",
+      "phone": "Nimewo Telefòn",
+      "address": "Adrès Pwopriyete a",
+      "service": "Sèvis ki Nesesè",
+      "message": "Detay Adisyonèl yo",
+      "submit": "Mande Estimasyon"
+    },
+    "services": {
+      "repair": "Reparasyon Twati",
+      "replacement": "Ranplase Twati",
+      "installation": "Nouvo Enstalasyon",
+      "inspection": "Enspeksyon Twati",
+      "maintenance": "Entretyen"
+    }
+  },
+  "language": {
+    "select": "Lang",
+    "english": "English",
+    "spanish": "Español",
+    "creole": "Kreyòl"
+  },
+  "floatingMenu": {
+    "requestQuote": "Mande Pri",
+    "account": "Kont",
+    "payInvoice": "Peye Faktè",
+    "upload": "Chaje",
+    "chatBot": "Chat Bot (K ap Vini)"
+  },
+  "footer": {
+    "company": "HMT Roofing",
+    "description": "Sèvis twati pwofesyonèl nan sid Florida. Otorize, sètifye ak moun ak biznis yo fye nou.",
+    "licensed": "Otorize ak Sètifye",
+    "licenseNumber": "CCC1336315",
+    "ourServices": "Sèvis Nou yo",
+    "services": {
+      "newRoofs": "Twati Nouvo",
+      "reRoofing": "Re-Twati",
+      "roofRepairs": "Reparasyon Twati",
+      "maintenance": "Entretyen",
+      "emergencyService": "Sèvis Ijans"
+    },
+    "roofingSystems": "Sistèm Twati yo",
+    "systems": {
+      "tileRoofing": "Twati Fèy Tè",
+      "asphaltShingle": "Fèy Asfalt",
+      "builtUpRoofing": "Twati Ki Konstwi",
+      "metalRoofing": "Twati Metal",
+      "coatingSystems": "Sistèm Kouvri yo"
+    },
+    "contactUs": "Kontakte Nou",
+    "location": "Miami, FL\nSid Florida",
+    "copyright": "© 2024 HMT Roofing. Tout dwa yo rezève.",
+    "privacyPolicy": "Politik Konfidansyalite",
+    "termsOfService": "Kondisyon Sèvis yo"
+  },
+  "estimateForm": {
+    "title": "Jwenn Estimasyon Gratis Ou a",
+    "subtitle": "Pare pou kòmanse pwojè twati ou a? Jwenn yon devis pèsonalize jodi a.",
+    "fullName": "Non Konplè",
+    "phoneNumber": "Nimewo Telefòn",
+    "propertyAddress": "Adrès Pwopriyete a",
+    "typeOfRoofing": "Kalite Twati",
+    "required": "*",
+    "placeholders": {
+      "fullName": "Antre non konplè ou a",
+      "phoneNumber": "(305) 555-0123",
+      "propertyAddress": "Antre adrès pwopriyete a"
+    },
+    "roofingTypes": {
+      "select": "Chwazi kalite twati",
+      "tileRoofing": "Twati Fèy Tè",
+      "asphaltShingle": "Fèy Asfalt",
+      "metalRoofing": "Twati Metal",
+      "builtUpRoofing": "Twati Ki Konstwi",
+      "coatingSystems": "Sistèm Kouvri yo",
+      "notSure": "Mwen Pa Sèten - Mwen Bezwen Konsèy"
+    },
+    "submitButton": "Jwenn Estimasyon Gratis",
+    "successMessage": "Mèsi! Nou pral kontakte ou byento pou estimasyon gratis ou a."
+  },
+  "communityInvolvement": {
+    "organizations": {
+      "chapman": {
+        "title": "Chapman Partnership pou Moun San Kay yo",
+        "description": "Sèvi manm ki pi vilnerab yo nan Kominote Sid Florida a kòm yon patnè nou ka fye sou li.",
+        "link": "www.chapmanpartnership.org"
+      },
+      "compassion": {
+        "title": "Compassion International: Sove Timoun yo nan Povrete",
+        "description": "Patwon timoun, oratè konferans ak anbasadè kominote pou kont timoun ki pi vilnerab yo nan mond lan.",
+        "link": "www.compassion.com"
+      },
+      "nba": {
+        "title": "Kaplen NBA",
+        "description": "Plis pase 15 ane eksperyans nan ministè espò pwofesyonèl ak atlèt yo ak kominote NBA a.",
+        "link": "www.athletesinaction.org"
+      }
+    },
+    "bottomText": "Aprann plis sou patnèrya kominote nou yo ak kijan nou bay tounen nan Sid Florida",
+    "viewAllButton": "Gade Tout Patnèrya yo"
+  },
+  "gallery": {
+    "breadcrumb": {
+      "home": "Lakay",
+      "gallery": "Galri"
+    },
+    "title": "Gade Travay Nou an nan Aksyon",
+    "subtitle": "Gade pòtfèy pwojè twati nou yo ki fini nan tout Sid Florida",
+    "projects": {
+      "tileInstallation": "Enstalasyon Twati Fèy Tè",
+      "shingleReplacement": "Ranplase Fèy Asfalt",
+      "commercialRoofing": "Twati Komèsyal",
+      "metalInstallation": "Enstalasyon Twati Metal",
+      "roofRepair": "Sèvis Reparasyon Twati",
+      "emergencyRepair": "Reparasyon Ijans Twati"
+    },
+    "categories": {
+      "residential": "Rezidansyèl",
+      "commercial": "Komèsyal",
+      "maintenance": "Entretyen",
+      "emergency": "Ijans"
+    },
+    "communitySection": {
+      "title": "Patisipasyon nan Kominote a",
+      "subtitle": "Nou fyè sipòte kominote lokal nou an nan plizyè patnèrya ak inisyativ charite yo.",
+      "chapman": {
+        "title": "Chapman Partnership",
+        "description": "Sipòte sèvis pou moun san kay yo nan konte Miami-Dade"
+      },
+      "compassion": {
+        "title": "Compassion International",
+        "description": "Ede timoun yo nan mond antye nan pwogram patwonaj yo"
+      },
+      "nba": {
+        "title": "Kaplen NBA",
+        "description": "Bay sipò espirityèl bay atlèt pwofesyonèl yo"
+      }
+    }
+  },
+  "video": {
+    "title": "Gade Ekspètiz Nou an nan Aksyon",
+    "subtitle": "Gade kijan HMT Roofing bay solisyon twati pwofesyonèl yo ak kalite travay ak atansyon nan detay yo.",
+    "hoverText": "Klike pou gade ekspètiz twati nou an nan aksyon",
+    "cta": {
+      "description": "Pare pou ekspèrimante diferans HMT Roofing la? Kontakte nou jodi a pou konsèy gratis ou a.",
+      "callNow": "Rele Kounye a",
+      "getEstimate": "Jwenn Estimasyon Gratis"
+    }
+  },
+  "contact": {
+    "breadcrumb": {
+      "home": "Lakay",
+      "contact": "Kontak"
+    },
+    "hero": {
+      "title": "Kontakte Nou",
+      "subtitle": "Pare pou diskite pwojè twati ou a? Kontakte ekip ekspè nou an jodi a."
+    },
+    "info": {
+      "callUs": {
+        "title": "Rele Nou",
+        "primary": "(305) 555-7663",
+        "secondary": "9am rive 6pm chak jou"
+      },
+      "emailUs": {
+        "title": "Voye Nou Yon Email",
+        "primary": "info@hmtroofing.com",
+        "secondary": "Repons nan 24 èdtan"
+      },
+      "visitUs": {
+        "title": "Vin Wè Nou",
+        "primary": "Miami, FL",
+        "secondary": "K ap sèvi Sid Florida"
+      }
+    },
+    "emergency": {
+      "title": "Sèvis Twati Ijans",
+      "subtitle": "Domaj tanpèt? Ijans koulman dlo? Nou disponib 24/7 pou reparasyon ijan yo.",
+      "emergencyLine": "Liy Ijans",
+      "callButton": "📞 Rele Liy Ijans: (305) 555-7663",
+      "availability": "Disponib 24/7 pou reparasyon twati ijans ak domaj tanpèt yo"
+    },
+    "form": {
+      "title": "Voye Nou Yon Mesaj",
+      "subtitle": "Ou gen kesyon sou sèvis twati nou yo? Nou la pou ede ou.",
+      "firstName": "Premye Non",
+      "lastName": "Dezyèm Non",
+      "email": "Adrès Email",
+      "phoneNumber": "Nimewo Telefòn",
+      "propertyAddress": "Adrès Pwopriyete a",
+      "serviceType": "Kalite Sèvis",
+      "message": "Mesaj",
+      "required": "*",
+      "firstNamePlaceholder": "Antre premye non ou a",
+      "lastNamePlaceholder": "Antre dezyèm non ou a",
+      "emailPlaceholder": "Antre adrès email ou a",
+      "phoneNumberPlaceholder": "Antre nimewo telefòn ou a",
+      "propertyAddressPlaceholder": "Antre adrès pwopriyete a",
+      "messagePlaceholder": "Di nou sou bezwen twati ou yo...",
+      "serviceOptions": {
+        "select": "Chwazi yon sèvis",
+        "newRoof": "Enstalasyon Twati Nouvo",
+        "roofRepair": "Reparasyon Twati",
+        "roofReplacement": "Ranplasman Twati",
+        "inspection": "Enspeksyon Twati",
+        "maintenance": "Entretyen Twati",
+        "emergency": "Sèvis Ijans",
+        "other": "Lòt"
+      },
+      "submitButton": "Voye Mesaj",
+      "successMessage": "Mèsi pou mesaj ou a! Nou pral kontakte ou byento.",
+      "agreementText": "Mwen aksepte resevwa kominikasyon nan men HMT Roofing epi mwen konprann mwen ka sispann abònman an nenpòt ki lè."
+    }
+  },
+  "services": {
+    "breadcrumb": {
+      "home": "Lakay",
+      "services": "Sèvis yo"
+    },
+    "hero": {
+      "title": "Sèvis Nou yo",
+      "subtitle": "Solisyon twati konplè pou pwopriyete rezidansyèl ak komèsyal yo nan bèl sid Florida a.",
+      "cta": "🔍 Eksplore Sèvis yo"
+    },
+    "solutions": {
+      "title": "Solisyon Twati Konplè",
+      "subtitle": "Depi nouvo enstalasyon yo rive nan reparasyon ijans, nou bay sèvis ekspè twati ak materyèl kalite ak travay pwofesyonèl.",
+      "newRoofs": {
+        "title": "Twati Nouvo",
+        "description": "Enstalasyon twati konplè depi nan kòmanse ak travay ekspè ak materyèl premyè kalite.",
+        "features": {
+          "consultation": "Konsèy pwofesyonèl",
+          "materials": "Materyèl premyè kalite",
+          "installation": "Enstalasyon ekspè",
+          "warranty": "Garanti konplè"
+        }
+      },
+      "reRoof": {
+        "title": "Re-Twati",
+        "description": "Sèvis pwofesyonèl ranplasman twati pou ba pwopriyete ou a yon sistèm twati fre ak ki dire.",
+        "features": {
+          "tearOff": "Demoli konplètman",
+          "inspection": "Enspeksyon estrikti",
+          "materials": "Materyèl modèn",
+          "efficiency": "Efikasite enèji"
+        }
+      },
+      "repairs": {
+        "title": "Reparasyon",
+        "description": "Sèvis ekspè reparasyon twati pou koulman dlo, domaj tanpèt ak pwoblèm entretyen jeneral yo.",
+        "features": {
+          "emergency": "Reparasyon ijans",
+          "detection": "Deteksyon koulman dlo",
+          "storm": "Domaj tanpèt",
+          "preventive": "Entretyen pwevantif"
+        }
+      },
+      "maintenance": {
+        "title": "Entretyen",
+        "description": "Pwogram entretyen regilyè pou lonje lavi twati ou a ak anpeche reparasyon ki koute chè.",
+        "features": {
+          "inspections": "Enspeksyon pwograme",
+          "care": "Swen pwevantif",
+          "cleaning": "Netwaye kanal dlo",
+          "optimization": "Optimizasyon pèfòmans"
+        }
+      },
+      "learnMore": "Aprann Plis →"
+    },
+    "materials": {
+      "title": "Materyèl Twati Nou Enstale",
+      "subtitle": "Materyèl premyè kalite pou chak bezwen ak bidjè twati",
+      "tile": {
+        "title": "Fèy Tè",
+        "description": "Fèy tè ak beton ki dire ki bay pwoteksyon siperye ak atiran estetik disteng.",
+        "benefits": {
+          "durability": "Dire lontan",
+          "weather": "Reziste move tan",
+          "energy": "Ekonomize enèji",
+          "maintenance": "Pa bezwen anpil entretyen",
+          "fire": "Reziste dife",
+          "eco": "Opsyon ekolojik"
+        }
+      },
+      "shingle": {
+        "title": "Fèy Asfalt",
+        "description": "Fèy ki gen bon pri ak ki versatil ak ekselan pwoteksyon kont move tan ak enstalasyon fasil.",
+        "benefits": {
+          "cost": "Pri rezonab",
+          "installation": "Enstalasyon fasil",
+          "colors": "Anpil koulè diferan",
+          "wind": "Bon rezistans kont van",
+          "algae": "Rezistans kont alg",
+          "impact": "Reziste enpak"
+        }
+      },
+      "builtUp": {
+        "title": "Konstwi",
+        "description": "Sistèm twati konstwi ak plizyè kouch ki ideyal pou aplikasyon komèsyal plat ak pant ki ba.",
+        "benefits": {
+          "waterproof": "Pwoteksyon kont dlo",
+          "commercial": "Nivo komèsyal",
+          "multiLayer": "Sistèm plizyè kouch",
+          "cost": "Pri rezonab",
+          "performance": "Pèfòmans ki prèv",
+          "maintenance": "Entretyen fasil"
+        }
+      },
+      "metal": {
+        "title": "Metal",
+        "description": "Twati metal premyè kalite ki bay dire eksepsyonèl, efikasite enèji ak estetik modèn.",
+        "benefits": {
+          "durability": "Dire eksepsyonèl",
+          "energy": "Ekonomize enèji",
+          "lightweight": "Leje",
+          "fire": "Reziste dife",
+          "recyclable": "Ka resikle",
+          "maintenance": "Pa bezwen anpil entretyen"
+        }
+      }
+    },
+    "detailedSystems": {
+      "title": "Sistèm Twati Nou yo",
+      "subtitle": "Dekouvri solisyon twati pafè a pou kay oswa biznis ou a ak seri konplè sistèm bon jan kalite nou yo",
+      "whyChoose": "Poukisa Chwazi yon",
+      "metal": {
+        "title": "Sistèm Twati Metal",
+        "description": "Twati metal yo vin popilè pou aplikasyon rezidansyèl ak komèsyal yo. Sik lavi yon twati metal ka dire ant 40 ak 70 ane, plis pase de fwa sa asfalt tradisyonèl la. Twati metal yo bay pwoteksyon adisyonèl kont eleman yo tou, ki gen ladan lagrèl, gwo lapli ak van fò.",
+        "benefits": {
+          "lasting": "Konstwi pou Dire 40-70 Ane, Konpare ak 12-25 pou Pifò Twati Asfalt yo",
+          "colors": "Disponib nan yon Gwo Seleksyon Koulè pou Matche ak Estil ou Vle a",
+          "maintenance": "Bezwen Mwens Entretyen Kontinyèl pase Lòt Sistèm Twati yo",
+          "warranties": "Jwi Garanti Manifakti ki Dire Pi Lontan",
+          "impervious": "Pa Ka Antre nan Pouriti, Mwazi ak Plis"
+        }
+      },
+      "flat": {
+        "title": "Sistèm Twati Plat",
+        "description": "Pandan twati plat yo tradisyonèlman wè sou pwopriyete komèsyal yo, nenpòt twati plat oswa ki gen pant ki ba ka benefisye nan yon sistèm twati plat. Kapasite yon twati plat pou kenbe estrikti ou a san dlo se enpòtan pou evite domaj dlo ki koute chè oswa entretyen kontinyèl pou pwoteje kay oswa biznis ou a.",
+        "benefits": {
+          "costs": "Kòb Konstriksyon ak Materyèl ki Pi Ba",
+          "repairs": "Reparasyon ki Abòdab, Lè sa Nesesè",
+          "efficiency": "Jwi Efikasite Enèji ak Kòb Sèvis Piblik ki Pi Ba",
+          "versatile": "Yo Versatil pou Aplikasyon Rezidansyèl ak Komèsyal yo",
+          "space": "Mwens Espas ki Gaspiye - Zòn Adisyonèl la Bon pou Panèl Solè, Espas Sou Twati ki Ka Itilize ak Plis"
+        }
+      },
+      "tile": {
+        "title": "Sistèm Twati Fèy Tè",
+        "description": "Sistèm twati fèy tè yo ofri dire eksepsyonèl ak atiran estetik, sa ki fè yo yon chwa ekselan pou estil achitekti ak klima divès yo.",
+        "benefits": {
+          "shedding": "Ekselan pou Drennen Dlo nan Klima ki Gen Anpil Lapli",
+          "lasting": "Sistèm Fèy Tè yo Dire ak Entretyen Regilyè",
+          "winds": "Dire Ase pou Reziste Van Fò yo",
+          "impervious": "Pa Ka Antre nan Pouriti, Ensèk ak Plis",
+          "recyclable": "Fèt ak Materyèl ki Ka Resikle ak Ekolojik",
+          "variety": "Disponib nan yon Varyete Chwa ak Koulè pou Matche ak Kay ou a"
+        }
+      },
+      "asphalt": {
+        "title": "Sistèm Twati Fèy Asfalt",
+        "description": "Fèy asfalt yo rete youn nan chwa twati ki pi popilè yo akòz versatilite yo, pri yo ak pèfòmans ki prèv nan kondisyon tan divès yo.",
+        "benefits": {
+          "lasting": "Sistèm Twati Asfalt yo Dire",
+          "affordable": "Fasil pou Enstale ak Pi Abòdab pase Metal oswa Fèy Tè",
+          "variety": "Disponib nan yon Varyete Estil ak Koulè",
+          "repairs": "Pifò Pwoblèm Komen yo Ka Repare Fasil",
+          "reputation": "Reputasyon Depi Lontan pou Kalite ak Fyabilite"
+        }
+      },
+      "coating": {
+        "title": "Sistèm Kouvri Twati",
+        "description": "Kouvri twati se yon solisyon ki gen bon pri ki ka lonje lavi twati ki egziste ou a pandan l ap bay pwoteksyon amelyore ak efikasite enèji.",
+        "benefits": {
+          "leaks": "Sispann Koulman Dlo Aktif yo ak Anpeche Domaj nan Lavni",
+          "costEffective": "Pi Gen Bon Pri pase yon Ranplasman Twati Konplè",
+          "efficiency": "Amelyore Efikasite-Enèji ak Estabilite UV",
+          "seamless": "Bay yon Baryè San Kouti ak San Dlo pou Twati ou a",
+          "install": "Fasil pou Enstale ak Entèripsyon Minimòm",
+          "integrity": "Kenbe ak Konsève Entegrite Sistèm Twati ou a"
+        }
+      },
+      "cta": {
+        "title": "Pare pou Chwazi Sistèm Twati Pafè ou a?",
+        "subtitle": "Ekspè nou yo la pou ede ou chwazi solisyon twati ideyal la pou bezwen ak bidjè espesifik ou yo",
+        "consultation": "Jwenn Konsèy Gratis",
+        "quote": "Mande Devis"
+      }
+    },
+    "process": {
+      "title": "Pwosesis Sèvis Nou an",
+      "subtitle": "Depi konsèy inisyal la rive nan konpletman pwojè a",
+      "inspection": {
+        "title": "Enspeksyon",
+        "description": "Enspeksyon ak evalyasyon twati konplè pou idantifye pwoblèm yo ak detèmine pi bon solisyon an.",
+        "details": "Enspektè sètifye nou yo pral egzamine ak anpil atansyon estrikti twati ou a, materyèl yo ak kondisyon jeneral la."
+      },
+      "estimate": {
+        "title": "Estimasyon",
+        "description": "Estimasyon ekri detaye ak espesifikasyon materyèl ak depo pri transparan.",
+        "details": "Resevwa yon devis konplè san frè kache ak eksplikasyon detaye travay yo rekòmande a."
+      },
+      "installation": {
+        "title": "Enstalasyon",
+        "description": "Enstalasyon pwofesyonèl pa teknisyen sètifye yo lè y ap sèvi ak materyèl premyè kalite ak teknik ki prèv.",
+        "details": "Enstalasyon ekspè ak atansyon nan detay, pwotokòl sekirite ak entèripsyon minimòm nan pwopriyete ou a."
+      },
+      "warranty": {
+        "title": "Garanti",
+        "description": "Kouvèti garanti konplè ak sipò kontinyèl pou kè poze ou.",
+        "details": "Pwoteksyon garanti konplè ak sèvis kliyan ki reponn ak sipò entretyen lè sa nesesè."
+      }
+    },
+    "readyToStart": {
+      "title": "Pare pou Kòmanse?",
+      "subtitle": "Kontakte nou jodi a pou yon konsèy gratis ak estimasyon pou pwojè twati ou a.",
+      "fullName": "Non Konplè",
+      "phoneNumber": "Nimewo Telefòn",
+      "required": "*",
+      "fullNamePlaceholder": "Antre non konplè ou a",
+      "phoneNumberPlaceholder": "(305) 555-0123",
+      "submitButton": "Jwenn Konsèy Gratis",
+      "successMessage": "Mèsi! Nou pral kontakte ou byento."
+    }
+  }
+}

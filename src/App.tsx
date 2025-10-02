@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
+import './i18n';
 
 function App() {
   return (

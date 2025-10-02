@@ -1,23 +1,27 @@
+import { useTranslation } from 'react-i18next';
+
 const CoreValues = () => {
+  const { t } = useTranslation();
+  
   const values = [
     {
       letter: 'H',
-      title: 'Honor',
-      description: 'We conduct our business with the highest level of integrity and honor in every project and client with respect and honesty.',
+      titleKey: 'coreValues.honor.title',
+      descriptionKey: 'coreValues.honor.description',
       bgColor: 'bg-primary-green',
       textColor: 'text-white'
     },
     {
       letter: 'M',
-      title: 'Mastery',
-      description: 'We believe in continuous improvement and mastery of our craft, delivering excellence in every roofing project.',
+      titleKey: 'coreValues.mastery.title',
+      descriptionKey: 'coreValues.mastery.description',
       bgColor: 'bg-primary-green',
       textColor: 'text-white'
     },
     {
       letter: 'T',
-      title: 'Trust',
-      description: 'We build lasting relationships based on trust, reliability, and transparency in all our business dealings.',
+      titleKey: 'coreValues.trust.title',
+      descriptionKey: 'coreValues.trust.description',
       bgColor: 'bg-primary-green',
       textColor: 'text-white'
     }
@@ -29,10 +33,10 @@ const CoreValues = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-dark mb-4">
-            Our Core Values
+            {t('coreValues.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Built on the foundation of Honor, Mastery, and Trust
+            {t('coreValues.subtitle')}
           </p>
         </div>
 
@@ -51,12 +55,12 @@ const CoreValues = () => {
 
               {/* Title */}
               <h3 className="text-2xl font-bold text-gray-dark mb-4">
-                {value.title}
+                {t(value.titleKey)}
               </h3>
 
               {/* Description */}
               <p className="text-gray-600 leading-relaxed">
-                {value.description}
+                {t(value.descriptionKey)}
               </p>
             </div>
           ))}

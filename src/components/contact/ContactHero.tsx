@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const ContactHero = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative h-96 flex items-center justify-center bg-gradient-to-br from-primary-green to-teal-700">
       {/* Background Image Overlay */}
@@ -15,20 +17,19 @@ const ContactHero = () => {
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         {/* Breadcrumb */}
         <div className="text-sm mb-4 opacity-90">
-          <Link to="/" className="hover:text-primary-yellow">Home</Link>
+          <Link to="/" className="hover:text-primary-yellow">{t('contact.breadcrumb.home')}</Link>
           <span className="mx-2">•</span>
-          <span>Contact</span>
+          <span>{t('contact.breadcrumb.contact')}</span>
         </div>
         
         {/* Main Heading */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          Contact <span className="text-primary-yellow">Us</span>
+          {t('contact.hero.title')}
         </h1>
         
         {/* Subtext */}
         <p className="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto">
-          Ready to discuss your roofing project? Get in touch with our expert 
-          team today.
+          {t('contact.hero.subtitle')}
         </p>
       </div>
     </section>

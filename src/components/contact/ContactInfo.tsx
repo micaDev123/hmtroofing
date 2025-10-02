@@ -1,26 +1,28 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const ContactInfo = () => {
+  const { t } = useTranslation();
   const contactMethods = [
     {
       icon: Phone,
-      title: 'Call Us',
-      primary: '(305) 555-7663',
-      secondary: '9am to 6pm daily',
+      titleKey: 'contact.info.callUs.title',
+      primaryKey: 'contact.info.callUs.primary',
+      secondaryKey: 'contact.info.callUs.secondary',
       color: 'text-primary-green'
     },
     {
       icon: Mail,
-      title: 'Email Us',
-      primary: 'info@hmtroofing.com',
-      secondary: 'Response within 24hrs',
+      titleKey: 'contact.info.emailUs.title',
+      primaryKey: 'contact.info.emailUs.primary',
+      secondaryKey: 'contact.info.emailUs.secondary',
       color: 'text-primary-green'
     },
     {
       icon: MapPin,
-      title: 'Visit Us',
-      primary: 'Miami, FL',
-      secondary: 'Serving South Florida',
+      titleKey: 'contact.info.visitUs.title',
+      primaryKey: 'contact.info.visitUs.primary',
+      secondaryKey: 'contact.info.visitUs.secondary',
       color: 'text-primary-green'
     }
   ];
@@ -43,17 +45,17 @@ const ContactInfo = () => {
 
                 {/* Title */}
                 <h3 className="text-2xl font-bold text-gray-dark mb-4">
-                  {method.title}
+                  {t(method.titleKey)}
                 </h3>
 
                 {/* Primary Info */}
                 <p className="text-lg font-semibold text-gray-dark mb-2">
-                  {method.primary}
+                  {t(method.primaryKey)}
                 </p>
 
                 {/* Secondary Info */}
                 <p className="text-gray-600">
-                  {method.secondary}
+                  {t(method.secondaryKey)}
                 </p>
               </div>
             );

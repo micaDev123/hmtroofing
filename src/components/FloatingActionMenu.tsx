@@ -1,10 +1,13 @@
 import { Lock, User, CreditCard, Upload, Bot } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const FloatingActionMenu = () => {
+  const { t } = useTranslation();
+  
   const menuItems = [
     {
       icon: Lock,
-      label: 'Request Quote',
+      labelKey: 'floatingMenu.requestQuote',
       bgColor: 'bg-primary-yellow',
       textColor: 'text-black',
       hoverColor: 'hover:bg-yellow-400',
@@ -14,7 +17,7 @@ const FloatingActionMenu = () => {
     },
     {
       icon: User,
-      label: 'Account',
+      labelKey: 'floatingMenu.account',
       bgColor: 'bg-white',
       textColor: 'text-primary-green',
       hoverColor: 'hover:bg-gray-50',
@@ -26,7 +29,7 @@ const FloatingActionMenu = () => {
     },
     {
       icon: CreditCard,
-      label: 'Pay Invoice',
+      labelKey: 'floatingMenu.payInvoice',
       bgColor: 'bg-primary-green',
       textColor: 'text-white',
       hoverColor: 'hover:bg-teal-700',
@@ -37,7 +40,7 @@ const FloatingActionMenu = () => {
     },
     {
       icon: Upload,
-      label: 'Upload',
+      labelKey: 'floatingMenu.upload',
       bgColor: 'bg-white',
       textColor: 'text-gray-600',
       hoverColor: 'hover:bg-gray-50',
@@ -63,7 +66,7 @@ const FloatingActionMenu = () => {
                 className={`flex items-center px-3 py-2 rounded-full shadow-md transition-all duration-200 hover:shadow-lg transform hover:scale-105 ${item.bgColor} ${item.textColor} ${item.hoverColor} ${item.border || ''}`}
               >
                 <Icon className="h-3 w-3 mr-2" />
-                <span className="text-xs font-medium whitespace-nowrap">{item.label}</span>
+                <span className="text-xs font-medium whitespace-nowrap">{t(item.labelKey)}</span>
               </button>
             );
           })}
@@ -74,7 +77,7 @@ const FloatingActionMenu = () => {
       <div className="fixed bottom-6 right-6 z-50">
         <button
           className="w-14 h-14 bg-primary-green text-white rounded-full shadow-lg hover:shadow-xl hover:bg-teal-700 transition-all duration-200 flex items-center justify-center transform hover:scale-105"
-          title="Chat Bot (Coming Soon)"
+          title={t('floatingMenu.chatBot')}
         >
           <Bot className="h-6 w-6" />
         </button>

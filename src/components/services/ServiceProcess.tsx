@@ -1,28 +1,31 @@
+import { useTranslation } from 'react-i18next';
+
 const ServiceProcess = () => {
+  const { t } = useTranslation();
   const steps = [
     {
       number: '1',
-      title: 'Inspection',
-      description: 'Comprehensive roof inspection and assessment to identify issues and determine the best solution.',
-      details: 'Our certified inspectors will thoroughly examine your roof structure, materials, and overall condition.'
+      titleKey: 'services.process.inspection.title',
+      descriptionKey: 'services.process.inspection.description',
+      detailsKey: 'services.process.inspection.details'
     },
     {
       number: '2',
-      title: 'Estimate',
-      description: 'Detailed written estimate with material specifications and transparent pricing breakdown.',
-      details: 'Receive a comprehensive quote with no hidden fees and detailed explanation of recommended work.'
+      titleKey: 'services.process.estimate.title',
+      descriptionKey: 'services.process.estimate.description',
+      detailsKey: 'services.process.estimate.details'
     },
     {
       number: '3',
-      title: 'Installation',
-      description: 'Professional installation by certified technicians using premium materials and proven techniques.',
-      details: 'Expert installation with attention to detail, safety protocols, and minimal disruption to your property.'
+      titleKey: 'services.process.installation.title',
+      descriptionKey: 'services.process.installation.description',
+      detailsKey: 'services.process.installation.details'
     },
     {
       number: '4',
-      title: 'Warranty',
-      description: 'Comprehensive warranty coverage and ongoing support for your peace of mind.',
-      details: 'Full warranty protection with responsive customer service and maintenance support when needed.'
+      titleKey: 'services.process.warranty.title',
+      descriptionKey: 'services.process.warranty.description',
+      detailsKey: 'services.process.warranty.details'
     }
   ];
 
@@ -32,10 +35,10 @@ const ServiceProcess = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-dark mb-4">
-            Our Service Process
+            {t('services.process.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From initial consultation to project completion
+            {t('services.process.subtitle')}
           </p>
         </div>
 
@@ -54,17 +57,17 @@ const ServiceProcess = () => {
 
               {/* Step Title */}
               <h3 className="text-2xl font-bold text-gray-dark mb-4">
-                {step.title}
+                {t(step.titleKey)}
               </h3>
 
               {/* Step Description */}
               <p className="text-gray-600 mb-4 leading-relaxed">
-                {step.description}
+                {t(step.descriptionKey)}
               </p>
 
               {/* Step Details */}
               <p className="text-sm text-gray-500 leading-relaxed">
-                {step.details}
+                {t(step.detailsKey)}
               </p>
 
               {/* Connector Line (except for last item) */}

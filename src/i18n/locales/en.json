@@ -1,0 +1,525 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "getQuote": "Get Quote",
+    "phone": "(305) 555-7663"
+  },
+  "hero": {
+    "title": "Professional Roofing Services in Miami",
+    "subtitle": "Protecting your home with quality craftsmanship and reliable service since 1995",
+    "cta": "Get Free Estimate",
+    "callNow": "Call Now"
+  },
+  "coreValues": {
+    "title": "Our Core Values",
+    "subtitle": "Built on the foundation of Honor, Mastery, and Trust",
+    "honor": {
+      "title": "Honor",
+      "description": "We conduct our business with the highest level of integrity and honor in every project and client with respect and honesty."
+    },
+    "mastery": {
+      "title": "Mastery",
+      "description": "We believe in continuous improvement and mastery of our craft, delivering excellence in every roofing project."
+    },
+    "trust": {
+      "title": "Trust",
+      "description": "We build lasting relationships based on trust, reliability, and transparency in all our business dealings."
+    }
+  },
+  "roofingSystems": {
+    "title": "Roofing Systems",
+    "subtitle": "Professional installation of complete roofing materials",
+    "tile": {
+      "title": "Tile Roofing",
+      "description": "Durable clay and concrete tiles offering superior protection and distinctive aesthetic appeal.",
+      "features": {
+        "durability": "Long-lasting durability",
+        "weather": "Weather resistant",
+        "energy": "Energy efficient",
+        "maintenance": "Low maintenance"
+      }
+    },
+    "asphalt": {
+      "title": "Asphalt Shingle",
+      "description": "Cost-effective and versatile shingles with excellent weather protection.",
+      "features": {
+        "cost": "Cost-effective",
+        "installation": "Easy installation",
+        "colors": "Wide variety of colors",
+        "wind": "Good wind resistance"
+      }
+    },
+    "coating": {
+      "title": "Coating Systems",
+      "description": "Advanced coating solutions for enhanced waterproofing and energy efficiency.",
+      "features": {
+        "waterproof": "Waterproof protection",
+        "savings": "Energy savings",
+        "extends": "Extends roof life",
+        "seamless": "Seamless application"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Trusted by homeowners and businesses across South Florida",
+    "client1": {
+      "name": "Sarah Johnson",
+      "role": "Homeowner",
+      "text": "HMT Roofing did an exceptional job on our tile roof replacement. Professional, timely, and the quality is outstanding. Highly recommend!"
+    },
+    "client2": {
+      "name": "Michael Rodriguez",
+      "role": "Business Owner",
+      "text": "Excellent service for our commercial property. The team was professional and completed the project on time and within budget."
+    },
+    "client3": {
+      "name": "Lisa Chen",
+      "role": "Property Manager",
+      "text": "Outstanding workmanship and customer service. HMT Roofing has been our go-to contractor for multiple properties."
+    }
+  },
+  "community": {
+    "title": "Community Involvement",
+    "subtitle": "Proudly serving and supporting our local Miami community",
+    "description": "At HMT Roofing, we believe in giving back to the community that has supported us for over 25 years. We're proud sponsors of local youth sports teams and regularly participate in community improvement projects.",
+    "involvement": {
+      "sponsor": "Youth Sports Sponsor",
+      "volunteer": "Community Volunteer Work",
+      "local": "Local Business Partner"
+    }
+  },
+  "estimate": {
+    "title": "Get Your Free Estimate Today",
+    "subtitle": "Ready to protect your home? Contact us for a comprehensive roofing assessment.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "address": "Property Address",
+      "service": "Service Needed",
+      "message": "Additional Details",
+      "submit": "Request Estimate"
+    },
+    "services": {
+      "repair": "Roof Repair",
+      "replacement": "Roof Replacement",
+      "installation": "New Installation",
+      "inspection": "Roof Inspection",
+      "maintenance": "Maintenance"
+    }
+  },
+  "language": {
+    "select": "Language",
+    "english": "English",
+    "spanish": "Español",
+    "creole": "Kreyòl"
+  },
+  "floatingMenu": {
+    "requestQuote": "Request Quote",
+    "account": "Account",
+    "payInvoice": "Pay Invoice",
+    "upload": "Upload",
+    "chatBot": "Chat Bot (Coming Soon)"
+  },
+  "footer": {
+    "company": "HMT Roofing",
+    "description": "Professional roofing services in South Florida. Licensed, certified, and trusted by homeowners and businesses.",
+    "licensed": "Licensed & Certified",
+    "licenseNumber": "CCC1336315",
+    "ourServices": "Our Services",
+    "services": {
+      "newRoofs": "New Roofs",
+      "reRoofing": "Re-Roofing",
+      "roofRepairs": "Roof Repairs",
+      "maintenance": "Maintenance",
+      "emergencyService": "Emergency Service"
+    },
+    "roofingSystems": "Roofing Systems",
+    "systems": {
+      "tileRoofing": "Tile Roofing",
+      "asphaltShingle": "Asphalt Shingle",
+      "builtUpRoofing": "Built-up Roofing",
+      "metalRoofing": "Metal Roofing",
+      "coatingSystems": "Coating Systems"
+    },
+    "contactUs": "Contact Us",
+    "location": "Miami, FL\nSouth Florida",
+    "copyright": "© 2024 HMT Roofing. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "estimateForm": {
+    "title": "Get Your Free Estimate",
+    "subtitle": "Ready to start your roofing project? Get a personalized quote today.",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "propertyAddress": "Property Address",
+    "typeOfRoofing": "Type of Roofing",
+    "required": "*",
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "phoneNumber": "(305) 555-0123",
+      "propertyAddress": "Enter property address"
+    },
+    "roofingTypes": {
+      "select": "Select roofing type",
+      "tileRoofing": "Tile Roofing",
+      "asphaltShingle": "Asphalt Shingle",
+      "metalRoofing": "Metal Roofing",
+      "builtUpRoofing": "Built-up Roofing",
+      "coatingSystems": "Coating Systems",
+      "notSure": "Not Sure - Need Consultation"
+    },
+    "submitButton": "Get Free Estimate",
+    "successMessage": "Thank you! We will contact you soon for your free estimate."
+  },
+  "communityInvolvement": {
+    "organizations": {
+      "chapman": {
+        "title": "Chapman Partnership for the Homeless",
+        "description": "Serving the most vulnerable members of the South Florida Community as a trusted partner.",
+        "link": "www.chapmanpartnership.org"
+      },
+      "compassion": {
+        "title": "Compassion International: Rescuing Children from Poverty",
+        "description": "Child sponsor, conference speaker and community ambassador on behalf of the world's most vulnerable children.",
+        "link": "www.compassion.com"
+      },
+      "nba": {
+        "title": "NBA Chaplain",
+        "description": "Over 15 years of professional sports ministry experience with athletes and the NBA community.",
+        "link": "www.athletesinaction.org"
+      }
+    },
+    "bottomText": "Learn more about our community partnerships and how we give back to South Florida",
+    "viewAllButton": "View All Partnerships"
+  },
+  "gallery": {
+    "breadcrumb": {
+      "home": "Home",
+      "gallery": "Gallery"
+    },
+    "title": "See Our Work in Action",
+    "subtitle": "Browse our portfolio of completed roofing projects across South Florida",
+    "projects": {
+      "tileInstallation": "Tile Roof Installation",
+      "shingleReplacement": "Shingle Roof Replacement",
+      "commercialRoofing": "Commercial Roofing",
+      "metalInstallation": "Metal Roof Installation",
+      "roofRepair": "Roof Repair Service",
+      "emergencyRepair": "Emergency Roof Repair"
+    },
+    "categories": {
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "maintenance": "Maintenance",
+      "emergency": "Emergency"
+    },
+    "communitySection": {
+      "title": "Community Involvement",
+      "subtitle": "We're proud to support our local community through various partnerships and charitable initiatives.",
+      "chapman": {
+        "title": "Chapman Partnership",
+        "description": "Supporting homeless services in Miami-Dade County"
+      },
+      "compassion": {
+        "title": "Compassion International",
+        "description": "Helping children worldwide through sponsorship programs"
+      },
+      "nba": {
+        "title": "NBA Chaplain",
+        "description": "Providing spiritual support to professional athletes"
+      }
+    }
+  },
+  "video": {
+    "title": "See Our Expertise in Action",
+    "subtitle": "Watch how HMT Roofing delivers professional roofing solutions with quality craftsmanship and attention to detail.",
+    "hoverText": "Click to watch our roofing expertise in action",
+    "cta": {
+      "description": "Ready to experience the HMT Roofing difference? Contact us today for your free consultation.",
+      "callNow": "Call Now",
+      "getEstimate": "Get Free Estimate"
+    }
+  },
+  "services": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services"
+    },
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive roofing solutions for residential and commercial properties in beautiful South Florida.",
+      "cta": "🔍 Explore Services"
+    },
+    "solutions": {
+      "title": "Complete Roofing Solutions",
+      "subtitle": "From new installations to emergency repairs, we provide expert roofing services with quality materials and professional craftsmanship.",
+      "newRoofs": {
+        "title": "New Roofs",
+        "description": "Complete roof installations from the ground up with expert craftsmanship and premium materials.",
+        "features": {
+          "consultation": "Professional consultation",
+          "materials": "Premium materials",
+          "installation": "Expert installation",
+          "warranty": "Comprehensive warranty"
+        }
+      },
+      "reRoof": {
+        "title": "Re-Roof",
+        "description": "Professional roof replacement services to give your property a fresh, durable roofing system.",
+        "features": {
+          "tearOff": "Complete tear-off",
+          "inspection": "Structural inspection",
+          "materials": "Modern materials",
+          "efficiency": "Energy efficiency"
+        }
+      },
+      "repairs": {
+        "title": "Repairs",
+        "description": "Expert roof repair services for leaks, storm damage, and general maintenance issues.",
+        "features": {
+          "emergency": "Emergency repairs",
+          "detection": "Leak detection",
+          "storm": "Storm damage",
+          "preventive": "Preventive maintenance"
+        }
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Regular maintenance programs to extend your roof life and prevent costly repairs.",
+        "features": {
+          "inspections": "Scheduled inspections",
+          "care": "Preventive care",
+          "cleaning": "Gutter cleaning",
+          "optimization": "Performance optimization"
+        }
+      },
+      "learnMore": "Learn More →"
+    },
+    "materials": {
+      "title": "Roofing Materials We Install",
+      "subtitle": "Premium materials for every roofing need and budget",
+      "tile": {
+        "title": "Tile",
+        "description": "Durable clay and concrete tiles offering superior protection and distinctive aesthetic appeal.",
+        "benefits": {
+          "durability": "Long-lasting durability",
+          "weather": "Weather resistant",
+          "energy": "Energy efficient",
+          "maintenance": "Low maintenance",
+          "fire": "Fire resistant",
+          "eco": "Eco-friendly options"
+        }
+      },
+      "shingle": {
+        "title": "Shingle",
+        "description": "Cost-effective and versatile shingles with excellent weather protection and easy installation.",
+        "benefits": {
+          "cost": "Cost-effective",
+          "installation": "Easy installation",
+          "colors": "Wide variety of colors",
+          "wind": "Good wind resistance",
+          "algae": "Algae resistance",
+          "impact": "Impact resistant"
+        }
+      },
+      "builtUp": {
+        "title": "Built-up",
+        "description": "Multi-layer built-up roofing systems ideal for flat and low-slope commercial applications.",
+        "benefits": {
+          "waterproof": "Waterproof protection",
+          "commercial": "Commercial grade",
+          "multiLayer": "Multi-layer system",
+          "cost": "Cost-effective",
+          "performance": "Proven performance",
+          "maintenance": "Easy maintenance"
+        }
+      },
+      "metal": {
+        "title": "Metal",
+        "description": "Premium metal roofing offering exceptional durability, energy efficiency, and modern aesthetics.",
+        "benefits": {
+          "durability": "Exceptional durability",
+          "energy": "Energy efficient",
+          "lightweight": "Lightweight",
+          "fire": "Fire resistant",
+          "recyclable": "Recyclable",
+          "maintenance": "Low maintenance"
+        }
+      }
+    },
+    "detailedSystems": {
+      "title": "Our Roofing Systems",
+      "subtitle": "Discover the perfect roofing solution for your home or business with our comprehensive range of high-quality systems",
+      "whyChoose": "Why Choose a",
+      "metal": {
+        "title": "Metal Roofing System",
+        "description": "Metal roofs have become popular for both residential and commercial applications. The life cycle of a metal roof can last anywhere between 40 to 70 years, more than doubling that of traditional asphalt. Metal roofs also provide added protection from the elements, including hail, heavy rains, and high winds.",
+        "benefits": {
+          "lasting": "Built to Last 40-70 Years, Compared to 12-25 for Most Asphalt Roofs",
+          "colors": "Available in a Large Selection of Colors to Fit Your Desired Style",
+          "maintenance": "Require Less Ongoing Maintenance than Other Roofing Systems",
+          "warranties": "Enjoy Longer Lasting Manufacturer Warranties",
+          "impervious": "Impervious to Rot, Mold, and More"
+        }
+      },
+      "flat": {
+        "title": "Flat Roofing System",
+        "description": "While flat roofs are traditionally seen on commercial properties, any flat or low-slope roof can benefit from a flat roof system. A flat roof's ability to keep your structure watertight is important in avoiding costly water damage or continued maintenance to protect your home or business.",
+        "benefits": {
+          "costs": "Lower Construction and Material Costs",
+          "repairs": "Affordable Repairs, When Needed",
+          "efficiency": "Enjoy Energy Efficiency and Lower Utility Costs",
+          "versatile": "Are Versatile for Both Residential and Commercial Applications",
+          "space": "Less Wasted Space - Added Area is Well-Suited for Solar Panels, Usable Rooftop Space, and More"
+        }
+      },
+      "tile": {
+        "title": "Tile Roofing System",
+        "description": "Tile roofing systems offer exceptional durability and aesthetic appeal, making them an excellent choice for various architectural styles and climates.",
+        "benefits": {
+          "shedding": "Excellent for Shedding Water in Rain Prone Climates",
+          "lasting": "Tile Systems Are Long Lasting with Regular Maintenance",
+          "winds": "Durable Enough to Withstand High Winds",
+          "impervious": "Impervious to Rot, Insects, and More",
+          "recyclable": "Made from Recyclable and Eco-Friendly Materials",
+          "variety": "Available in a Variety of Choices and Colors to Match Your Home"
+        }
+      },
+      "asphalt": {
+        "title": "Asphalt Shingle Roofing System",
+        "description": "Asphalt shingles remain one of the most popular roofing choices due to their versatility, affordability, and proven performance across various weather conditions.",
+        "benefits": {
+          "lasting": "Asphalt Roofing Systems Are Long Lasting",
+          "affordable": "Easy to Install and More Affordable Than Metal or Tile",
+          "variety": "Available in a Variety of Styles and Colors",
+          "repairs": "Most Common Issues Can be Repaired Easily",
+          "reputation": "Long-Standing Reputation for Quality and Reliability"
+        }
+      },
+      "coating": {
+        "title": "Roof Coating System",
+        "description": "Roof coating is a cost-effective solution that can extend the life of your existing roof while providing enhanced protection and energy efficiency.",
+        "benefits": {
+          "leaks": "Stops Active Water Leaks and Prevents Future Damage",
+          "costEffective": "More Cost-Effective Than a Full Roof Replacement",
+          "efficiency": "Improves Energy-Efficiency and UV Stability",
+          "seamless": "Provides a Seamless, Watertight Barrier for Your Roof",
+          "install": "Easy to Install with Minimal Disruption",
+          "integrity": "Maintains and Preserves the Integrity of Your Roofing System"
+        }
+      },
+      "cta": {
+        "title": "Ready to Choose Your Perfect Roofing System?",
+        "subtitle": "Our experts are here to help you select the ideal roofing solution for your specific needs and budget",
+        "consultation": "Get Free Consultation",
+        "quote": "Request Quote"
+      }
+    },
+    "process": {
+      "title": "Our Service Process",
+      "subtitle": "From initial consultation to project completion",
+      "inspection": {
+        "title": "Inspection",
+        "description": "Comprehensive roof inspection and assessment to identify issues and determine the best solution.",
+        "details": "Our certified inspectors will thoroughly examine your roof structure, materials, and overall condition."
+      },
+      "estimate": {
+        "title": "Estimate",
+        "description": "Detailed written estimate with material specifications and transparent pricing breakdown.",
+        "details": "Receive a comprehensive quote with no hidden fees and detailed explanation of recommended work."
+      },
+      "installation": {
+        "title": "Installation",
+        "description": "Professional installation by certified technicians using premium materials and proven techniques.",
+        "details": "Expert installation with attention to detail, safety protocols, and minimal disruption to your property."
+      },
+      "warranty": {
+        "title": "Warranty",
+        "description": "Comprehensive warranty coverage and ongoing support for your peace of mind.",
+        "details": "Full warranty protection with responsive customer service and maintenance support when needed."
+      }
+    },
+    "readyToStart": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Contact us today for a free consultation and estimate for your roofing project.",
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "required": "*",
+      "fullNamePlaceholder": "Enter your full name",
+      "phoneNumberPlaceholder": "(305) 555-0123",
+      "submitButton": "Get Free Consultation",
+      "successMessage": "Thank you! We will contact you soon."
+    }
+  },
+  "contact": {
+    "breadcrumb": {
+      "home": "Home",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Ready to discuss your roofing project? Get in touch with our expert team today."
+    },
+    "info": {
+      "callUs": {
+        "title": "Call Us",
+        "primary": "(305) 555-7663",
+        "secondary": "9am to 6pm daily"
+      },
+      "emailUs": {
+        "title": "Email Us",
+        "primary": "info@hmtroofing.com",
+        "secondary": "Response within 24hrs"
+      },
+      "visitUs": {
+        "title": "Visit Us",
+        "primary": "Miami, FL",
+        "secondary": "Serving South Florida"
+      }
+    },
+    "emergency": {
+      "title": "Emergency Roofing Services",
+      "subtitle": "Storm damage? Leak emergency? We're available 24/7 for urgent repairs.",
+      "emergencyLine": "Emergency Line",
+      "callButton": "📞 Call Emergency Line: (305) 555-7663",
+      "availability": "Available 24/7 for emergency roofing repairs and storm damage"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Have questions about our roofing services? We're here to help.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phoneNumber": "Phone Number",
+      "propertyAddress": "Property Address",
+      "serviceType": "Service Type",
+      "message": "Message",
+      "required": "*",
+      "firstNamePlaceholder": "Enter your first name",
+      "lastNamePlaceholder": "Enter your last name",
+      "emailPlaceholder": "Enter your email address",
+      "phoneNumberPlaceholder": "Enter your phone number",
+      "propertyAddressPlaceholder": "Enter property address",
+      "messagePlaceholder": "Tell us about your roofing needs...",
+      "serviceOptions": {
+        "select": "Select a service",
+        "newRoof": "New Roof Installation",
+        "roofRepair": "Roof Repair",
+        "roofReplacement": "Roof Replacement",
+        "inspection": "Roof Inspection",
+        "maintenance": "Roof Maintenance",
+        "emergency": "Emergency Service",
+        "other": "Other"
+      },
+      "submitButton": "Send Message",
+      "successMessage": "Thank you for your message! We will contact you soon.",
+      "agreementText": "I agree to receive communications from HMT Roofing and understand that I can unsubscribe at any time."
+    }
+  }
+}

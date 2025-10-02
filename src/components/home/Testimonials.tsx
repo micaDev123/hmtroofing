@@ -1,27 +1,30 @@
 import { Star } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Testimonials = () => {
+  const { t } = useTranslation();
+  
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Homeowner',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
+      nameKey: 'testimonials.client1.name',
+      roleKey: 'testimonials.client1.role',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
       rating: 5,
-      text: 'HMT Roofing did an exceptional job on our tile roof replacement. Professional, timely, and the quality is outstanding. Highly recommend!'
+      textKey: 'testimonials.client1.text'
     },
     {
-      name: 'Michael Rodriguez',
-      role: 'Business Owner',
+      nameKey: 'testimonials.client2.name',
+      roleKey: 'testimonials.client2.role',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
       rating: 5,
-      text: 'Excellent service for our commercial property. The team was professional and completed the project on time and within budget.'
+      textKey: 'testimonials.client2.text'
     },
     {
-      name: 'Lisa Chen',
-      role: 'Property Manager',
+      nameKey: 'testimonials.client3.name',
+      roleKey: 'testimonials.client3.role',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
       rating: 5,
-      text: 'Outstanding workmanship and customer service. HMT Roofing has been our go-to contractor for multiple properties.'
+      textKey: 'testimonials.client3.text'
     }
   ];
 
@@ -31,10 +34,10 @@ const Testimonials = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-dark mb-4">
-            What Our Clients Say
+            {t('testimonials.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Trusted by homeowners and businesses across South Florida
+            {t('testimonials.subtitle')}
           </p>
         </div>
 
@@ -51,22 +54,22 @@ const Testimonials = () => {
 
               {/* Testimonial Text */}
               <p className="text-gray-600 mb-6 leading-relaxed italic">
-                "{testimonial.text}"
+                "{t(testimonial.textKey)}"
               </p>
 
               {/* Client Info */}
               <div className="flex items-center">
                 <img 
                   src={testimonial.image} 
-                  alt={testimonial.name}
+                  alt={t(testimonial.nameKey)}
                   className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>
                   <div className="font-semibold text-gray-dark">
-                    {testimonial.name}
+                    {t(testimonial.nameKey)}
                   </div>
                   <div className="text-sm text-gray-500">
-                    {testimonial.role}
+                    {t(testimonial.roleKey)}
                   </div>
                 </div>
               </div>

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary-green to-teal-700">
       {/* Background Image Overlay */}
@@ -21,14 +23,12 @@ const Hero = () => {
         
         {/* Main Heading */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Commercial & Residential
-          <span className="block text-primary-yellow">Roofing</span>
+          {t('hero.title')}
         </h1>
         
         {/* Subtext */}
         <p className="text-xl md:text-2xl mb-12 text-gray-100 max-w-3xl mx-auto leading-relaxed">
-          Quality roofing solutions with integrity, honesty, and trust. Serving 
-          South Florida with 20+ years of experience.
+          {t('hero.subtitle')}
         </p>
         
         {/* CTA Buttons */}
@@ -37,13 +37,13 @@ const Hero = () => {
             to="/contact"
             className="btn-primary text-lg px-8 py-4 inline-flex items-center"
           >
-            📋 Request Free Quote
+            📋 {t('hero.cta')}
           </Link>
           <Link 
             to="/gallery"
             className="btn-secondary text-lg px-8 py-4 inline-flex items-center"
           >
-            📸 View Gallery
+            📸 {t('nav.gallery')}
           </Link>
         </div>
       </div>
