@@ -11,18 +11,29 @@
   
   body {
     font-family: 'Inter', sans-serif;
+    font-style: italic;
     margin: 0;
     padding: 0;
+  }
+
+  /* Ensure all text elements are italic */
+  *, *::before, *::after {
+    font-style: italic;
+  }
+
+  /* Explicitly ensure buttons, links, and navigation are italic */
+  button, a, nav, .nav, .menu, .btn {
+    font-style: italic !important;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-yellow text-gray-dark font-semibold py-3 px-6 rounded-lg hover:bg-yellow-400 transition-colors duration-200;
+    @apply bg-primary-yellow text-gray-dark font-semibold py-3 px-6 rounded-lg hover:bg-yellow-400 transition-colors duration-200 italic;
   }
   
   .btn-secondary {
-    @apply bg-white text-primary-green border-2 border-primary-green font-semibold py-3 px-6 rounded-lg hover:bg-primary-green hover:text-white transition-colors duration-200;
+    @apply bg-white text-primary-green border-2 border-primary-green font-semibold py-3 px-6 rounded-lg hover:bg-primary-green hover:text-white transition-colors duration-200 italic;
   }
   
   .section-padding {

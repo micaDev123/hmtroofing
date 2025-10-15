@@ -92,6 +92,10 @@
       "local": "Patnè Biznis Lokal"
     }
   },
+  "videoSection": {
+    "title": "Galri Travay Nou An",
+    "subtitle": "Gade pwojè tèt pwofesyonèl nou yo ak kalite travay nou nan aksyon"
+  },
   "estimate": {
     "title": "Jwenn Estimasyon Gratis Ou a Jodi a",
     "subtitle": "Pare pou pwoteje kay ou a? Kontakte nou pou yon evalyasyon twati konplè.",
@@ -192,7 +196,7 @@
       "nba": {
         "title": "Kaplen NBA",
         "description": "Plis pase 15 ane eksperyans nan ministè espò pwofesyonèl ak atlèt yo ak kominote NBA a.",
-        "link": "www.athletesinaction.org"
+        "link": "probasketballchaplains.org/team-chaplains/"
       }
     },
     "bottomText": "Aprann plis sou patnèrya kominote nou yo ak kijan nou bay tounen nan Sid Florida",

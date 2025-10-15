@@ -29,7 +29,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-white hidden">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">

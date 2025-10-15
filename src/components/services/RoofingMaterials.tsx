@@ -5,7 +5,7 @@ const RoofingMaterials = () => {
   const materials = [
     {
       titleKey: 'services.materials.tile.title',
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/images/Gallery/WhatsApp Image 2025-08-27 at 08.08.15 (6).jpeg',
       descriptionKey: 'services.materials.tile.description',
       benefitsKeys: [
         'services.materials.tile.benefits.durability',
@@ -18,7 +18,7 @@ const RoofingMaterials = () => {
     },
     {
       titleKey: 'services.materials.shingle.title',
-      image: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/images/Gallery/WhatsApp Image 2025-08-27 at 08.08.14 (8).jpeg',
       descriptionKey: 'services.materials.shingle.description',
       benefitsKeys: [
         'services.materials.shingle.benefits.cost',
@@ -31,7 +31,7 @@ const RoofingMaterials = () => {
     },
     {
       titleKey: 'services.materials.builtUp.title',
-      image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/images/Gallery/WhatsApp Image 2025-08-27 at 08.08.16 (8).jpeg',
       descriptionKey: 'services.materials.builtUp.description',
       benefitsKeys: [
         'services.materials.builtUp.benefits.waterproof',
@@ -44,7 +44,7 @@ const RoofingMaterials = () => {
     },
     {
       titleKey: 'services.materials.metal.title',
-      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: '/images/Gallery/WhatsApp Image 2025-08-27 at 08.08.17 (2).jpeg',
       descriptionKey: 'services.materials.metal.description',
       benefitsKeys: [
         'services.materials.metal.benefits.durability',

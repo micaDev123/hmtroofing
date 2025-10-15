@@ -92,6 +92,10 @@
       "local": "Local Business Partner"
     }
   },
+  "videoSection": {
+    "title": "Our Work Gallery",
+    "subtitle": "See our professional roofing projects and quality craftsmanship in action"
+  },
   "estimate": {
     "title": "Get Your Free Estimate Today",
     "subtitle": "Ready to protect your home? Contact us for a comprehensive roofing assessment.",
@@ -192,7 +196,7 @@
       "nba": {
         "title": "NBA Chaplain",
         "description": "Over 15 years of professional sports ministry experience with athletes and the NBA community.",
-        "link": "www.athletesinaction.org"
+        "link": "probasketballchaplains.org/team-chaplains/"
       }
     },
     "bottomText": "Learn more about our community partnerships and how we give back to South Florida",

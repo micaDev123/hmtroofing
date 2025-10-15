@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Test - HMT Roofing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 { color: #2c5aa0; }
+        .success { color: #28a745; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏠 HMT Roofing Server Test</h1>
+        <p class="success">✅ Server is working correctly!</p>
+        <p>If you can see this page, your SiteGround hosting is functioning properly.</p>
+        <p>Current time: <span id="time"></span></p>
+        <button onclick="testAssets()">Test Asset Loading</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        // Display current time
+        document.getElementById('time').textContent = new Date().toLocaleString();
+        
+        function testAssets() {
+            const result = document.getElementById('result');
+            result.innerHTML = '<p>Testing asset files...</p>';
+            
+            // Test CSS file
+            fetch('/assets/index-BFLxdKv3.css')
+                .then(response => {
+                    if (response.ok) {
+                        result.innerHTML += '<p style="color: green;">✅ CSS file found</p>';
+                    } else {
+                        result.innerHTML += '<p style="color: red;">❌ CSS file not found (404)</p>';
+                    }
+                })
+                .catch(err => {
+                    result.innerHTML += '<p style="color: red;">❌ CSS file error: ' + err.message + '</p>';
+                });
+            
+            // Test JS file
+            fetch('/assets/index-CGPs_h-X.js')
+                .then(response => {
+                    if (response.ok) {
+                        result.innerHTML += '<p style="color: green;">✅ JS file found</p>';
+                    } else {
+                        result.innerHTML += '<p style="color: red;">❌ JS file not found (404)</p>';
+                    }
+                })
+                .catch(err => {
+                    result.innerHTML += '<p style="color: red;">❌ JS file error: ' + err.message + '</p>';
+                });
+        }
+    </script>
+</body>
+</html>

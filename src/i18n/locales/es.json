@@ -92,6 +92,10 @@
       "local": "Socio Comercial Local"
     }
   },
+  "videoSection": {
+    "title": "Nuestra Galería de Trabajos",
+    "subtitle": "Vea nuestros proyectos profesionales de techado y artesanía de calidad en acción"
+  },
   "estimate": {
     "title": "Obtenga Su Estimado Gratuito Hoy",
     "subtitle": "¿Listo para proteger su hogar? Contáctenos para una evaluación integral de techado.",
@@ -192,7 +196,7 @@
       "nba": {
         "title": "Capellán de la NBA",
         "description": "Más de 15 años de experiencia en ministerio deportivo profesional con atletas y la comunidad de la NBA.",
-        "link": "www.athletesinaction.org"
+        "link": "probasketballchaplains.org/team-chaplains/"
       }
     },
     "bottomText": "Aprenda más sobre nuestras asociaciones comunitarias y cómo retribuimos al sur de Florida",
