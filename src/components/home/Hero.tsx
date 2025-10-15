@@ -33,11 +33,11 @@ const Hero = () => {
 
       {/* Centered Video Only */}
       <div className="relative z-10 min-h-screen flex items-center justify-center">
-        <div className="relative max-w-5xl mx-auto px-6">
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-900">
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <video 
               ref={videoRef}
-              className="w-full h-80 lg:h-[500px] object-cover"
+              className="w-full h-auto max-h-64 sm:max-h-80 md:max-h-96 lg:h-[500px] object-contain lg:object-cover"
               autoPlay
               muted
               loop
