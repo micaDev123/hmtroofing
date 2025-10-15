@@ -24,14 +24,12 @@ const Hero = () => {
     <section className="relative min-h-screen overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-top bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/hero1.jpg')"
+          backgroundImage: "url('/images/Hero3.jpg')"
         }}
       ></div>
 
-      {/* Dark Overlay for better contrast */}
-      <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Centered Video Only */}
       <div className="relative z-10 min-h-screen flex items-center justify-center">

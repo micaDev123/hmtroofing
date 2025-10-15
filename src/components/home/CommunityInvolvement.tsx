@@ -86,15 +86,6 @@ const CommunityInvolvement = () => {
           ))}
         </div>
 
-        {/* Bottom Call to Action */}
-        <div className="text-center mt-12">
-          <p className="text-gray-600 mb-6">
-            {t('communityInvolvement.bottomText')}
-          </p>
-          <button className="btn-secondary">
-            {t('communityInvolvement.viewAllButton')}
-          </button>
-        </div>
       </div>
     </section>
   );
