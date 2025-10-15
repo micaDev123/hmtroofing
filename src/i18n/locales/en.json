@@ -14,19 +14,19 @@
     "callNow": "Call Now"
   },
   "coreValues": {
-    "title": "Our Core Values",
+    "title": "Our Values",
     "subtitle": "Built on the foundation of Honor, Mastery, and Trust",
     "honor": {
       "title": "Honor",
-      "description": "We conduct our business with the highest level of integrity and honor in every project and client with respect and honesty."
+      "description": "We operate with a high level of integrity. What we say is what we do!"
     },
     "mastery": {
       "title": "Mastery",
-      "description": "We believe in continuous improvement and mastery of our craft, delivering excellence in every roofing project."
+      "description": "We believe in quality work that speaks for itself."
     },
     "trust": {
       "title": "Trust",
-      "description": "We build lasting relationships based on trust, reliability, and transparency in all our business dealings."
+      "description": "We always consider the overall well-being of our clients."
     }
   },
   "roofingSystems": {

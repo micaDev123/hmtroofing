@@ -14,19 +14,19 @@
     "callNow": "Llamar Ahora"
   },
   "coreValues": {
-    "title": "Nuestros Valores Fundamentales",
+    "title": "Nuestros Valores",
     "subtitle": "Construido sobre la base del Honor, Maestría y Confianza",
     "honor": {
       "title": "Honor",
-      "description": "Conducimos nuestro negocio con el más alto nivel de integridad y honor en cada proyecto y cliente con respeto y honestidad."
+      "description": "Operamos con un alto nivel de integridad. ¡Lo que decimos es lo que hacemos!"
     },
     "mastery": {
       "title": "Maestría",
-      "description": "Creemos en la mejora continua y el dominio de nuestro oficio, entregando excelencia en cada proyecto de techado."
+      "description": "Creemos en trabajo de calidad que habla por sí mismo."
     },
     "trust": {
       "title": "Confianza",
-      "description": "Construimos relaciones duraderas basadas en la confianza, confiabilidad y transparencia en todos nuestros tratos comerciales."
+      "description": "Siempre consideramos el bienestar general de nuestros clientes."
     }
   },
   "roofingSystems": {
