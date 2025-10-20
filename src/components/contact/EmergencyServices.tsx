@@ -8,10 +8,10 @@ const EmergencyServices = () => {
       <div className="max-w-4xl mx-auto text-center">
         {/* Section Header */}
         <div className="mb-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
             {t('contact.emergency.title')}
           </h2>
-          <p className="text-xl text-gray-100 max-w-3xl mx-auto">
+          <p className="text-base text-gray-100 max-w-3xl mx-auto">
             {t('contact.emergency.subtitle')}
           </p>
         </div>

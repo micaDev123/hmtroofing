@@ -25,8 +25,8 @@ const ReadyToStart = () => {
     <section className="section-padding bg-primary-green">
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+        <div className="text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
             {t('services.readyToStart.title')}
           </h2>
           <p className="text-base text-gray-100 max-w-2xl mx-auto">

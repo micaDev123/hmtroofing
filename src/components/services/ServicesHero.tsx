@@ -23,12 +23,12 @@ const ServicesHero = () => {
         </div>
         
         {/* Main Heading */}
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
           {t('services.hero.title')}
         </h1>
         
         {/* Subtext */}
-        <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-3xl mx-auto">
+        <p className="text-lg text-gray-100 max-w-3xl mx-auto mb-8">
           {t('services.hero.subtitle')}
         </p>
         
