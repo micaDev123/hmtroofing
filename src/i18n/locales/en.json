@@ -11,7 +11,12 @@
     "title": "Professional Roofing Services in Miami",
     "subtitle": "Protecting your home with quality craftsmanship and reliable service since 1995",
     "cta": "Get Free Estimate",
-    "callNow": "Call Now"
+    "callNow": "Call Now",
+    "videoHeader": {
+      "services": "Commercial and Residential Roofing.",
+      "location": "Serving all of South Florida.",
+      "license": "CCC1336315"
+    }
   },
   "coreValues": {
     "title": "Our Values",

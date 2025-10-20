@@ -29,10 +29,10 @@ const CommunityInvolvement = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-dark mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-dark mb-4">
             {t('community.title')}
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base text-gray-600 max-w-3xl mx-auto">
             {t('community.subtitle')}
           </p>
         </div>

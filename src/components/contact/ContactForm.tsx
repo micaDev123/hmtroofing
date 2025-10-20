@@ -203,10 +203,10 @@ const ContactForm = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-primary-green text-white font-semibold py-3 px-6 rounded-md hover:bg-teal-700 transition-colors duration-200 flex items-center justify-center"
+                className="w-full bg-primary-yellow hover:bg-yellow-400 text-gray-dark font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 flex items-center justify-center"
               >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
                 {t('contact.form.submitButton')}
               </button>

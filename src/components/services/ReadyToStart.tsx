@@ -26,10 +26,10 @@ const ReadyToStart = () => {
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
             {t('services.readyToStart.title')}
           </h2>
-          <p className="text-xl text-gray-100 max-w-2xl mx-auto">
+          <p className="text-base text-gray-100 max-w-2xl mx-auto">
             {t('services.readyToStart.subtitle')}
           </p>
         </div>

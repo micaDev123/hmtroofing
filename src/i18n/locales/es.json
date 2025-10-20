@@ -11,7 +11,12 @@
     "title": "Servicios Profesionales de Techado en Miami",
     "subtitle": "Protegiendo su hogar con artesanía de calidad y servicio confiable desde 1995",
     "cta": "Obtener Estimado Gratis",
-    "callNow": "Llamar Ahora"
+    "callNow": "Llamar Ahora",
+    "videoHeader": {
+      "services": "Techado Comercial y Residencial.",
+      "location": "Sirviendo todo el Sur de Florida.",
+      "license": "CCC1336315"
+    }
   },
   "coreValues": {
     "title": "Nuestros Valores",
