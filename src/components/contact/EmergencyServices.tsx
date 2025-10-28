@@ -26,7 +26,7 @@ const EmergencyServices = () => {
           </div>
           
           <a 
-            href="tel:3055557663"
+            href="tel:9545540484"
             className="inline-block bg-primary-yellow text-gray-dark font-bold py-4 px-8 rounded-lg hover:bg-yellow-400 transition-colors duration-200 text-xl mb-4"
           >
             {t('contact.emergency.callButton')}

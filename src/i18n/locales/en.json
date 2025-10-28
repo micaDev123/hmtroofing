@@ -5,7 +5,7 @@
     "gallery": "Gallery",
     "contact": "Contact",
     "getQuote": "Get Quote",
-    "phone": "(305) 555-7663"
+    "phone": "(954) 554-0484" 
   },
   "hero": {
     "title": "Professional Roofing Services in Miami",
@@ -171,7 +171,7 @@
     "required": "*",
     "placeholders": {
       "fullName": "Enter your full name",
-      "phoneNumber": "(305) 555-0123",
+      "phoneNumber": "(954) 554-0484",
       "propertyAddress": "Enter property address"
     },
     "roofingTypes": {
@@ -461,7 +461,7 @@
       "phoneNumber": "Phone Number",
       "required": "*",
       "fullNamePlaceholder": "Enter your full name",
-      "phoneNumberPlaceholder": "(305) 555-0123",
+      "phoneNumberPlaceholder": "(954) 554-0484",
       "submitButton": "Get Free Consultation",
       "successMessage": "Thank you! We will contact you soon."
     }
@@ -478,12 +478,12 @@
     "info": {
       "callUs": {
         "title": "Call Us",
-        "primary": "(305) 555-7663",
+        "primary": "(954) 554-0484",
         "secondary": "9am to 6pm daily"
       },
       "emailUs": {
         "title": "Email Us",
-        "primary": "info@hmtroofing.com",
+        "primary": "careteam@hmtroofing.com",
         "secondary": "Response within 24hrs"
       },
       "visitUs": {
@@ -496,7 +496,7 @@
       "title": "Emergency Roofing Services",
       "subtitle": "Storm damage? Leak emergency? We're available 24/7 for urgent repairs.",
       "emergencyLine": "Emergency Line",
-      "callButton": "📞 Call Emergency Line: (305) 555-7663",
+      "callButton": "📞 Call Emergency Line: (954) 554-0484",
       "availability": "Available 24/7 for emergency roofing repairs and storm damage"
     },
     "form": {
