@@ -106,12 +106,12 @@ const Navbar = () => {
               <Phone className="h-4 w-4" />
               <span className="font-semibold">{t('nav.phone')}</span>
               <div className="flex items-center gap-1 text-xs">
-                <a href="tel:+19545540484" className="text-primary-green hover:underline">
-                  Call
-                </a>
-                <span className="text-gray-400">|</span>
                 <a href="sms:+19545540484" className="text-primary-green hover:underline">
                   Text
+                </a>
+                <span className="text-gray-400">|</span>
+                <a href="tel:+19545540484" className="text-primary-green hover:underline">
+                  Call
                 </a>
               </div>
             </div>
