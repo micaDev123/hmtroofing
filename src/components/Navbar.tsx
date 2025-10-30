@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
 
@@ -97,11 +97,23 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Phone, Language Selector, and CTA */}
+          {/* Email, Phone, Language Selector, and CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <div className="flex items-center text-gray-700">
-              <Phone className="h-4 w-4 mr-2" />
+            <a href="mailto:careteam@hmtroofing.com" className="flex items-center text-gray-700 hover:text-primary-green transition-colors duration-200" title="Email us">
+              <Mail className="h-4 w-4" />
+            </a>
+            <div className="flex items-center gap-2 text-gray-700">
+              <Phone className="h-4 w-4" />
               <span className="font-semibold">{t('nav.phone')}</span>
+              <div className="flex items-center gap-1 text-xs">
+                <a href="tel:+19545540484" className="text-primary-green hover:underline">
+                  Call
+                </a>
+                <span className="text-gray-400">|</span>
+                <a href="sms:+19545540484" className="text-primary-green hover:underline">
+                  Text
+                </a>
+              </div>
             </div>
             <LanguageSelector />
             <button className="btn-primary">
@@ -153,10 +165,14 @@ const Navbar = () => {
               )
             ))}
             <div className="px-3 py-2 border-t mt-4">
-              <div className="flex items-center text-gray-700 mb-3">
+              <a href="mailto:careteam@hmtroofing.com" className="flex items-center text-gray-700 hover:text-primary-green transition-colors duration-200 mb-3">
+                <Mail className="h-4 w-4 mr-2" />
+                <span className="font-semibold">careteam@hmtroofing.com</span>
+              </a>
+              <a href="tel:+19545540484" className="flex items-center text-gray-700 hover:text-primary-green transition-colors duration-200 mb-3">
                 <Phone className="h-4 w-4 mr-2" />
                 <span className="font-semibold">{t('nav.phone')}</span>
-              </div>
+              </a>
               <div className="mb-3">
                 <LanguageSelector />
               </div>

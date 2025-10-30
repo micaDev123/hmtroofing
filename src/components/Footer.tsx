@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin, PhoneCall, MessageSquare } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
@@ -78,12 +78,20 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">{t('footer.contactUs')}</h3>
             <div className="space-y-3">
               <div className="flex items-center">
-                <Phone className="h-4 w-4 mr-3 text-primary-yellow" />
-                <span className="text-gray-300">{t('nav.phone')}</span>
+                <a href="tel:+19545540484" className="cursor-pointer hover:opacity-80 transition-opacity">
+                  <Phone className="h-4 w-4 mr-3 text-primary-yellow" />
+                </a>
+                <a href="tel:+19545540484" className="text-gray-300 hover:text-primary-yellow transition-colors duration-200">
+                  {t('nav.phone')}
+                </a>
               </div>
               <div className="flex items-center">
-                <Mail className="h-4 w-4 mr-3 text-primary-yellow" />
-                <span className="text-gray-300">careteam@hmtroofing.com</span>
+                <a href="mailto:careteam@hmtroofing.com" className="cursor-pointer hover:opacity-80 transition-opacity">
+                  <Mail className="h-4 w-4 mr-3 text-primary-yellow" />
+                </a>
+                <a href="mailto:careteam@hmtroofing.com" className="text-gray-300 hover:text-primary-yellow transition-colors duration-200">
+                  careteam@hmtroofing.com
+                </a>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-3 text-primary-yellow mt-1" />

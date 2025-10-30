@@ -13,7 +13,7 @@
     "cta": "Jwenn Estimasyon Gratis",
     "callNow": "Rele Kounye a",
     "videoHeader": {
-      "services": "30 Ane Twati Komèsyal ak Rezidansyèl",
+      "services": "30 ane eksperyans fanmi ekspè",
       "location": "N ap sèvi tout Sid Florida.",
       "license": "CCC1336315"
     }
@@ -98,8 +98,8 @@
     }
   },
   "videoSection": {
-    "title": "Galri Travay Nou An",
-    "subtitle": "Gade pwojè tèt pwofesyonèl nou yo ak kalite travay nou nan aksyon"
+    "title": "Gade Travay Nou nan Aksyon",
+    "subtitle": ""
   },
   "estimate": {
     "title": "Jwenn Estimasyon Gratis Ou a Jodi a",
@@ -125,7 +125,7 @@
     "select": "Lang",
     "english": "English",
     "spanish": "Español",
-    "creole": "Kreyòl"
+    "creole": "Creole"
   },
   "floatingMenu": {
     "requestQuote": "Mande Pri",
@@ -157,7 +157,7 @@
     },
     "contactUs": "Kontakte Nou",
     "location": "Miami, FL\nSid Florida",
-    "copyright": "© 2024 HMT Roofing. Tout dwa yo rezève.",
+    "copyright": " 2024 HMT Roofing. Tout dwa yo rezève.",
     "privacyPolicy": "Politik Konfidansyalite",
     "termsOfService": "Kondisyon Sèvis yo"
   },

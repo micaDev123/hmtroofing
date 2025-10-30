@@ -13,7 +13,7 @@
     "cta": "Get Free Estimate",
     "callNow": "Call Now",
     "videoHeader": {
-      "services": "30 Years Commercial and Residential Roofing",
+      "services": "30 years of expert family experience",
       "location": "Serving all of South Florida.",
       "license": "CCC1336315"
     }
@@ -98,8 +98,8 @@
     }
   },
   "videoSection": {
-    "title": "Our Work Gallery",
-    "subtitle": "See our professional roofing projects and quality craftsmanship in action"
+    "title": "See our Work in Action",
+    "subtitle": ""
   },
   "estimate": {
     "title": "Get Your Free Estimate Today",
@@ -125,7 +125,7 @@
     "select": "Language",
     "english": "English",
     "spanish": "Español",
-    "creole": "Kreyòl"
+    "creole": "Creole"
   },
   "floatingMenu": {
     "requestQuote": "Request Quote",

@@ -16,22 +16,16 @@ const ContactForm = () => {
           </p>
         </div>
 
-        {/* Google Form */}
-        <div className="bg-white rounded-lg shadow-lg p-4 md:p-8">
-          <div className="w-full flex justify-center">
-            <iframe 
-              src="https://docs.google.com/forms/d/e/1FAIpQLSe2rAotiA07BAseQ5varyLyhQ9opOAkGMqudfz_vIm6jys3FA/viewform?embedded=true" 
-              width="100%" 
-              height="900" 
-              frameBorder="0" 
-              marginHeight={0} 
-              marginWidth={0}
-              className="max-w-full"
-              style={{ border: 'none' }}
-            >
-              Loading…
-            </iframe>
-          </div>
+        {/* Google Form Button */}
+        <div className="flex justify-center">
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe2rAotiA07BAseQ5varyLyhQ9opOAkGMqudfz_vIm6jys3FA/viewform" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn-primary text-lg px-8 py-4 inline-block"
+          >
+            {t('contact.form.title')}
+          </a>
         </div>
       </div>
     </section>

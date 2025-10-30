@@ -13,7 +13,7 @@
     "cta": "Obtener Estimado Gratis",
     "callNow": "Llamar Ahora",
     "videoHeader": {
-      "services": "30 Años Techado Comercial y Residencial",
+      "services": "30 años de experiencia familiar experta",
       "location": "Sirviendo todo el Sur de Florida.",
       "license": "CCC1336315"
     }
@@ -98,8 +98,8 @@
     }
   },
   "videoSection": {
-    "title": "Nuestra Galería de Trabajos",
-    "subtitle": "Vea nuestros proyectos profesionales de techado y artesanía de calidad en acción"
+    "title": "Vea Nuestro Trabajo en Acción",
+    "subtitle": ""
   },
   "estimate": {
     "title": "Obtenga Su Estimado Gratuito Hoy",
@@ -125,7 +125,7 @@
     "select": "Idioma",
     "english": "English",
     "spanish": "Español",
-    "creole": "Kreyòl"
+    "creole": "Creole"
   },
   "floatingMenu": {
     "requestQuote": "Solicitar Cotización",
