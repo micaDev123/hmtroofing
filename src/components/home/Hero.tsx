@@ -38,9 +38,19 @@ const Hero = () => {
               </h1>
               
               {/* Subtitle with Location and License */}
-              <p className="text-base text-white/90">
+              <p className="text-base text-white/90 mb-4">
                 {t('hero.videoHeader.location')} • {t('hero.videoHeader.license')}
               </p>
+
+              {/* CTA Button */}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeOur3kblLnESFxU_304znclYOt2PKJkkF0esHqUU4PhV23nw/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-lg px-8 py-4 inline-block"
+              >
+                {t('hero.cta')}
+              </a>
             </div>
           </div>
           
