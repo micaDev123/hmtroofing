@@ -86,13 +86,6 @@ const CommunityInvolvement = () => {
           ))}
         </div>
 
-        {/* Bottom Text */}
-        <div className="text-center mt-12">
-          <p className="text-base text-gray-600 max-w-2xl mx-auto italic">
-            {t('communityInvolvement.bottomStatement')}
-          </p>
-        </div>
-
       </div>
     </section>
   );
