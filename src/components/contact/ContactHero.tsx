@@ -9,7 +9,7 @@ const ContactHero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
         style={{
-          backgroundImage: "url('/images/contact-us.jpg')"
+          backgroundImage: "url('/images/Hero3.jpg')"
         }}
       ></div>
       
