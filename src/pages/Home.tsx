@@ -1,7 +1,7 @@
 import Hero from '../components/home/Hero';
 import CoreValues from '../components/home/CoreValues';
 import VideoSection from '../components/home/VideoSection';
-import Testimonials from '../components/home/Testimonials';
+import GoogleReviews from '../components/home/GoogleReviews';
 import CommunityInvolvement from '../components/home/CommunityInvolvement';
 import EstimateForm from '../components/home/EstimateForm';
 
@@ -12,8 +12,7 @@ const Home = () => {
       <CoreValues />
       <CommunityInvolvement />
       <VideoSection />
-      {/* <RoofingSystems /> */}
-      <Testimonials />
+      <GoogleReviews />
       <EstimateForm />
     </div>
   );

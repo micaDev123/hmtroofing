@@ -1,25 +1,26 @@
 import { useTranslation } from 'react-i18next';
+import { Shield, Hammer, Handshake } from 'lucide-react';
 
 const CoreValues = () => {
   const { t } = useTranslation();
   
   const values = [
     {
-      letter: 'H',
+      icon: Shield,
       titleKey: 'coreValues.honor.title',
       descriptionKey: 'coreValues.honor.description',
       bgColor: 'bg-primary-green',
       textColor: 'text-white'
     },
     {
-      letter: 'M',
+      icon: Hammer,
       titleKey: 'coreValues.mastery.title',
       descriptionKey: 'coreValues.mastery.description',
       bgColor: 'bg-primary-green',
       textColor: 'text-white'
     },
     {
-      letter: 'T',
+      icon: Handshake,
       titleKey: 'coreValues.trust.title',
       descriptionKey: 'coreValues.trust.description',
       bgColor: 'bg-primary-green',
@@ -44,12 +45,10 @@ const CoreValues = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {values.map((value, index) => (
             <div key={index} className="text-center group">
-              {/* Letter Circle */}
+              {/* Icon Circle */}
               <div className="flex justify-center mb-6">
                 <div className={`w-20 h-20 ${value.bgColor} rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                  <span className={`text-3xl font-bold ${value.textColor}`}>
-                    {value.letter}
-                  </span>
+                  <value.icon className={`w-10 h-10 ${value.textColor}`} strokeWidth={2} />
                 </div>
               </div>
 
